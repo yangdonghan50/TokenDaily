@@ -1,6 +1,6 @@
 # TokenDaily 桌面端公开前审查
 
-日期：2026-10-22。所有者已批准以不含旧历史的干净快照新建 [TokenDaily-Desktop](https://github.com/yangdonghan50/TokenDaily-Desktop) 公开仓库，原私库保留；四个厂商 Logo 替换为普通字母标识，启用私密漏洞报告。本文保存检查范围及发布规则，实际执行与回验记录见 [PROGRESS](PROGRESS.md)。开源源码不等于发布新的安装包或部署服务。
+日期：2026-10-22。已按所有者授权建立 [TokenDaily-Desktop](https://github.com/yangdonghan50/TokenDaily-Desktop) 公开仓库，初始快照不含旧历史，原私库保留；四个厂商 Logo 已替换为普通字母标识，私密漏洞报告已启用并回读确认。首次匿名回验为 275 个文件、一个无父提交的根、唯一 main 与零标签，之后仅追加发布记录。执行与验收详情见 [PROGRESS](PROGRESS.md)。本次没有发布新的安装包或部署服务。
 
 ## 授权范围与交付内容
 
@@ -79,6 +79,8 @@ git diff --check
 | `cargo check --locked --offline --manifest-path src-tauri/Cargo.toml --all-targets` | Windows 通过；有既有未使用代码与增量缓存硬链接回退警告 |
 | Windows 未签名 NSIS 构建及许可资源 | `npm run tauri -- build --no-sign --bundles nsis -- --locked --offline` 通过；NSIS 脚本包含三个许可文件，打包暂存资源与原文逐字节一致；未安装，不作正式更新包分发 |
 | 本轮 Windows 安装态与 macOS 实机 | 未执行；不宣称本次完成双端交付 |
+
+公开实施补充检查：普通标识替换后再次通过 101 项前端测试和 TypeScript/Vite 构建；真实 ProviderLogo 的合成浏览器预览确认 21/24/32/33px 下 16 张图片均加载、尺寸正确且可读。最终发布导出树约 2.10 MB，Gitleaks 复扫未检出密钥；独立初始提交为 `ca0a0a1d7b3e25b63346b3fd9357c31d4b44b44d`。公开端使用匿名 API 检查文件树、提交关系、分支与标签，并确认 GitHub 识别 Apache-2.0。本轮未改 Rust，也未重复原生安装态验收。
 
 扫描没有发现不等于证明不存在秘密。范围限于本地取得的可达 Git 历史及审查后的当前文件；忽略目录中的运行数据、仓库外凭据、本机配置没有被纳入公开材料。未审查 GitHub 旧 Issue/PR 附件、Actions 日志/制品、远端不可见分支、不可达对象及 reflog 内容。候选快照不包含这些历史材料；未来若直接公开原仓库，需另做完整远端与历史清理，不能沿用本结论。
 

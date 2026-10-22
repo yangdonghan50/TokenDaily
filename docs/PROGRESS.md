@@ -9,7 +9,8 @@
 - 更新 README、SECURITY、交接文档、功能对照和双机工作流。新公开主线从独立根提交开始；日后任务基于公开 main，原私有分支、标签与历史不能合入或整体推送。公开源码仍为 Apache-2.0，免费桌面与网页情报订阅独立。
 - `npm test` 101/101、TypeScript/Vite 生产构建及 `git diff --check` 通过。Tabbit 本机合成预览加载实际 ProviderLogo 组件，16 个图标在 21/24/32/33px 全部加载且尺寸正确，截图目视无裁切；保持 `aria-hidden` 装饰图语义。沙盒内预览端口不可达，改由本机 loopback 临时服务完成检查。没有运行 Windows/macOS 原生安装态；Rust 未改动，本轮未重复其上一阶段 146 项检查。
 - GitHub 官方 API 已创建新的公开空库；私密漏洞报告启用后 GET 回读 `enabled=true`，SECURITY 指向新库入口。未创建公开 Issue 或测试漏洞报告。原私库可见性仍为 private。
-- 当前状态：正在导出、扫描并推送最终独立根快照；远端提交关系、文件树及发布回验在完成后追加记录。本地原始审查报告、候选/发布 bundle 与 ZIP 保存在忽略目录。没有新的安装包发布、官网部署或生产签名。
+- 发布完成：[TokenDaily-Desktop](https://github.com/yangdonghan50/TokenDaily-Desktop) 的独立初始提交为 `ca0a0a1d7b3e25b63346b3fd9357c31d4b44b44d`，文件树 `3764b38376ffa3dedcf67cee881c07b11017cd71`。从只导入本次 bundle 的隔离 Git 仓库推送，首次远端匿名回验为 1 个无父提交的根、275 个文件、唯一 main、0 标签；原四个厂商图形的 Git blob 均不在新树中。GitHub 识别许可证为 Apache-2.0；公开源码约 2.10 MB 的最终 Gitleaks 复扫未检出密钥。私密漏洞报告 GET 回读 `enabled=true`，原私库仍为 private。
+- 首次公开回验后仅追加本次发布文档记录，父提交限定上述公开根，不合入原私有任务分支。Windows 原目录的 origin 保留，新增 public remote 用于明确区分新库；本地原始审查报告、候选/发布 bundle 与 ZIP 保存在忽略目录。没有新的安装包发布、官网部署或生产签名。
 
 ## 2026-10-22：Apache-2.0 开源准备与公开前审查
 
