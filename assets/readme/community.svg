@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="735" viewBox="0 0 1280 735" role="img" aria-labelledby="title desc">
+<title id="title">TokenDaily 社区用量榜与七种荣誉</title><desc id="desc">官网社区用量榜的结构示意。支持日榜和周榜、总榜及 Codex、Claude Code、WorkBuddy 分榜。金皇冠、银勋章、铜勋章为前三名标志；第 4 名起按百分位授予星耀、精英、进阶和新锐。图中昵称、数字和排名全部为合成示例。</desc>
+<defs><linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#112f36"/><stop offset="1" stop-color="#1b464a"/></linearGradient><linearGradient id="mint" x1="0" x2="1"><stop stop-color="#16827e"/><stop offset="1" stop-color="#75c6b3"/></linearGradient><filter id="shadow" x="-40%" y="-20%" width="180%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#06282d" flood-opacity=".16"/></filter></defs>
+<rect x="0" y="0" width="1280" height="735" rx="20" fill="#f3f7f5"/>
+<text x="58" y="54" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" font-weight="600" fill="#648983" letter-spacing="2.3">A LITTLE PERSPECTIVE ON YOUR PROGRESS</text>
+<text x="58" y="112" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="40" font-weight="700" fill="#163d43">记录投入，也看见进展。</text>
+<text x="58" y="151" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="400" fill="#6d8588">按工具与周期，看见自己的用量、名次与荣誉。</text>
+<text x="1221" y="56" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" font-weight="500" fill="#76938d" text-anchor="end" letter-spacing="1.6">03 / COMMUNITY</text>
+<rect x="58" y="189" width="144" height="38" rx="9" fill="#e4efeb"/>
+<rect x="62" y="193" width="66" height="30" rx="7" fill="#ffffff"/>
+<text x="95" y="214" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" font-weight="600" fill="#16827e" text-anchor="middle">日榜</text>
+<text x="164" y="214" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" font-weight="400" fill="#6d8588" text-anchor="middle">周榜</text>
+<rect x="216" y="189" width="166" height="38" rx="8" fill="#ffffff" stroke="#dce8e5" stroke-width="1"/>
+<text x="233" y="214" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" font-weight="400" fill="#163d43">全部工具</text>
+<path d="M357 205l5 5 5-5" fill="none" stroke="#6d8588" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<text x="909" y="214" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" font-weight="400" fill="#6d8588" text-anchor="end">北京时间 · 当前已同步量</text>
+<rect x="58" y="247" width="269" height="149" rx="12" fill="#ffffff" stroke="#dce8e5" stroke-width="1"/>
+<text x="192.5" y="272" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" font-weight="400" fill="#6d8588" text-anchor="middle">全部工具 · 今日第 2 名</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24" color="#687F94" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" role="img" x="179" y="284">
+  <title>银勋章 · 第 2 名</title>
+  <path d="m8.3 14.4-1.2 6.1 3.2-1.7 1.7-3.2 1.7 3.2 3.2 1.7-1.2-6.1"/>
+  <circle cx="12" cy="9.3" r="6.3" fill="currentColor" fill-opacity=".1"/>
+  <path d="m12 6.4.9 2 2 .9-2 .9-.9 2-.9-2-2-.9 2-.9Z" fill="currentColor" stroke="none"/>
+</svg>
+<text x="192.5" y="335" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="600" fill="#163d43" text-anchor="middle">示例用户 B</text>
+<text x="192.5" y="370" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="27" font-weight="700" fill="#163d43" text-anchor="middle">362.40万</text>
+<text x="192.5" y="386" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" font-weight="400" fill="#6d8588" text-anchor="middle">Tokens</text>
+<rect x="349" y="247" width="269" height="149" rx="12" fill="#fffdf7" stroke="#dccb98" stroke-width="1"/>
+<text x="483.5" y="272" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" font-weight="400" fill="#997c37" text-anchor="middle">全部工具 · 今日第 1 名</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24" color="#A77319" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" role="img" x="470" y="284">
+  <title>金皇冠 · 第 1 名</title>
+  <path d="M4 6.8 8.2 11 12 4.7 15.8 11 20 6.8 18.5 16.9H5.5Z" fill="currentColor" fill-opacity=".1"/>
+  <path d="M6.5 20h11"/>
+  <circle cx="4" cy="6.6" r=".7" fill="currentColor" stroke="none"/>
+  <circle cx="12" cy="4.5" r=".7" fill="currentColor" stroke="none"/>
+  <circle cx="20" cy="6.6" r=".7" fill="currentColor" stroke="none"/>
+</svg>
+<text x="483.5" y="335" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="600" fill="#163d43" text-anchor="middle">示例用户 A</text>
+<text x="483.5" y="370" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="27" font-weight="700" fill="#163d43" text-anchor="middle">486.20万</text>
+<text x="483.5" y="386" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" font-weight="400" fill="#6d8588" text-anchor="middle">Tokens</text>
+<rect x="640" y="247" width="269" height="149" rx="12" fill="#ffffff" stroke="#dce8e5" stroke-width="1"/>
+<text x="774.5" y="272" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" font-weight="400" fill="#6d8588" text-anchor="middle">全部工具 · 今日第 3 名</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24" color="#A46F4E" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" role="img" x="761" y="284">
+  <title>铜勋章 · 第 3 名</title>
+  <path d="m8.3 14.4-1.2 6.1 3.2-1.7 1.7-3.2 1.7 3.2 3.2 1.7-1.2-6.1"/>
+  <circle cx="12" cy="9.3" r="6.3" fill="currentColor" fill-opacity=".1"/>
+  <path d="m12 6.4.9 2 2 .9-2 .9-.9 2-.9-2-2-.9 2-.9Z" fill="currentColor" stroke="none"/>
+</svg>
+<text x="774.5" y="335" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="600" fill="#163d43" text-anchor="middle">示例用户 C</text>
+<text x="774.5" y="370" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="27" font-weight="700" fill="#163d43" text-anchor="middle">298.60万</text>
+<text x="774.5" y="386" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" font-weight="400" fill="#6d8588" text-anchor="middle">Tokens</text>
+<rect x="58" y="414" width="851" height="222" rx="12" fill="#ffffff" stroke="#dce8e5" stroke-width="1"/>
+<text x="80" y="446" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="700" fill="#163d43">全部工具 日榜</text>
+<text x="887" y="444" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" font-weight="400" fill="#6d8588" text-anchor="end">输入（含缓存）+ 输出</text>
+<path d="M59 460H908" stroke="#dce8e5" stroke-width="1"/>
+<rect x="59" y="461" width="849" height="29" rx="0" fill="#f7faf8"/>
+<text x="80" y="481" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" font-weight="400" fill="#6d8588">排名</text>
+<text x="245" y="481" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" font-weight="400" fill="#6d8588">参与者</text>
+<text x="723" y="481" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" font-weight="400" fill="#6d8588">Tokens</text>
+<text x="823" y="481" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" font-weight="400" fill="#6d8588">最近同步</text>
+<text x="80" y="518" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" font-weight="400" fill="#163d43">#1</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" color="#A77319" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" role="img" x="119" y="502">
+  <title>金皇冠 · 第 1 名</title>
+  <path d="M4 6.8 8.2 11 12 4.7 15.8 11 20 6.8 18.5 16.9H5.5Z" fill="currentColor" fill-opacity=".1"/>
+  <path d="M6.5 20h11"/>
+  <circle cx="4" cy="6.6" r=".7" fill="currentColor" stroke="none"/>
+  <circle cx="12" cy="4.5" r=".7" fill="currentColor" stroke="none"/>
+  <circle cx="20" cy="6.6" r=".7" fill="currentColor" stroke="none"/>
+</svg>
+<rect x="245" y="498" width="28" height="28" rx="6" fill="#edf6f2"/>
+<text x="259" y="517" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" font-weight="500" fill="#16827e" text-anchor="middle">A</text>
+<text x="285" y="518" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" font-weight="500" fill="#163d43">示例用户 A</text>
+<text x="785" y="518" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#163d43" text-anchor="end">486.20万</text>
+<text x="839" y="518" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" font-weight="400" fill="#6d8588">刚刚</text>
+<path d="M59 534H908" stroke="#edf2f0" stroke-width="1"/>
+<text x="80" y="563" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" font-weight="400" fill="#163d43">#2</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" color="#687F94" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" role="img" x="119" y="547">
+  <title>银勋章 · 第 2 名</title>
+  <path d="m8.3 14.4-1.2 6.1 3.2-1.7 1.7-3.2 1.7 3.2 3.2 1.7-1.2-6.1"/>
+  <circle cx="12" cy="9.3" r="6.3" fill="currentColor" fill-opacity=".1"/>
+  <path d="m12 6.4.9 2 2 .9-2 .9-.9 2-.9-2-2-.9 2-.9Z" fill="currentColor" stroke="none"/>
+</svg>
+<rect x="245" y="543" width="28" height="28" rx="6" fill="#edf6f2"/>
+<text x="259" y="562" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" font-weight="500" fill="#16827e" text-anchor="middle">B</text>
+<text x="285" y="563" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" font-weight="500" fill="#163d43">示例用户 B</text>
+<text x="785" y="563" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#163d43" text-anchor="end">362.40万</text>
+<text x="839" y="563" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" font-weight="400" fill="#6d8588">刚刚</text>
+<path d="M59 579H908" stroke="#edf2f0" stroke-width="1"/>
+<text x="80" y="608" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" font-weight="400" fill="#163d43">#3</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" color="#A46F4E" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" role="img" x="119" y="592">
+  <title>铜勋章 · 第 3 名</title>
+  <path d="m8.3 14.4-1.2 6.1 3.2-1.7 1.7-3.2 1.7 3.2 3.2 1.7-1.2-6.1"/>
+  <circle cx="12" cy="9.3" r="6.3" fill="currentColor" fill-opacity=".1"/>
+  <path d="m12 6.4.9 2 2 .9-2 .9-.9 2-.9-2-2-.9 2-.9Z" fill="currentColor" stroke="none"/>
+</svg>
+<rect x="245" y="588" width="28" height="28" rx="6" fill="#edf6f2"/>
+<text x="259" y="607" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" font-weight="500" fill="#16827e" text-anchor="middle">C</text>
+<text x="285" y="608" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" font-weight="500" fill="#163d43">示例用户 C</text>
+<text x="785" y="608" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#163d43" text-anchor="end">298.60万</text>
+<text x="839" y="608" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" font-weight="400" fill="#6d8588">刚刚</text>
+<rect x="939" y="189" width="283" height="447" rx="14" fill="#ffffff" stroke="#dce8e5" stroke-width="1"/>
+<text x="962" y="224" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="700" fill="#163d43">荣誉一览</text>
+<text x="963" y="250" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" font-weight="400" fill="#6d8588">每个榜单，最多一种标志。</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" color="#A77319" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" role="img" x="962" y="271">
+  <title>金皇冠 · 第 1 名</title>
+  <path d="M4 6.8 8.2 11 12 4.7 15.8 11 20 6.8 18.5 16.9H5.5Z" fill="currentColor" fill-opacity=".1"/>
+  <path d="M6.5 20h11"/>
+  <circle cx="4" cy="6.6" r=".7" fill="currentColor" stroke="none"/>
+  <circle cx="12" cy="4.5" r=".7" fill="currentColor" stroke="none"/>
+  <circle cx="20" cy="6.6" r=".7" fill="currentColor" stroke="none"/>
+</svg>
+<text x="1001" y="290" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="500" fill="#163d43">金皇冠</text>
+<text x="1198" y="290" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" font-weight="400" fill="#6d8588" text-anchor="end">第 1 名</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" color="#687F94" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" role="img" x="962" y="313">
+  <title>银勋章 · 第 2 名</title>
+  <path d="m8.3 14.4-1.2 6.1 3.2-1.7 1.7-3.2 1.7 3.2 3.2 1.7-1.2-6.1"/>
+  <circle cx="12" cy="9.3" r="6.3" fill="currentColor" fill-opacity=".1"/>
+  <path d="m12 6.4.9 2 2 .9-2 .9-.9 2-.9-2-2-.9 2-.9Z" fill="currentColor" stroke="none"/>
+</svg>
+<text x="1001" y="332" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="500" fill="#163d43">银勋章</text>
+<text x="1198" y="332" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" font-weight="400" fill="#6d8588" text-anchor="end">第 2 名</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" color="#A46F4E" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" role="img" x="962" y="355">
+  <title>铜勋章 · 第 3 名</title>
+  <path d="m8.3 14.4-1.2 6.1 3.2-1.7 1.7-3.2 1.7 3.2 3.2 1.7-1.2-6.1"/>
+  <circle cx="12" cy="9.3" r="6.3" fill="currentColor" fill-opacity=".1"/>
+  <path d="m12 6.4.9 2 2 .9-2 .9-.9 2-.9-2-2-.9 2-.9Z" fill="currentColor" stroke="none"/>
+</svg>
+<text x="1001" y="374" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="500" fill="#163d43">铜勋章</text>
+<text x="1198" y="374" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" font-weight="400" fill="#6d8588" text-anchor="end">第 3 名</text>
+<path d="M963 397H1197" stroke="#dce8e5" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" color="#7771B1" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" role="img" x="962" y="407">
+  <title>星耀 · 前 5%</title>
+  <path d="m12 3.5 2.4 6.1 6.1 2.4-6.1 2.4-2.4 6.1-2.4-6.1-6.1-2.4 6.1-2.4Z" fill="currentColor" fill-opacity=".1"/>
+</svg>
+<text x="1001" y="426" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="500" fill="#163d43">星耀</text>
+<text x="1198" y="426" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" font-weight="400" fill="#6d8588" text-anchor="end">前 5%</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" color="#277F71" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" role="img" x="962" y="449">
+  <title>精英 · 前 10%</title>
+  <path d="M7.4 5h9.2l3.9 4.3L12 19.5 3.5 9.3Z" fill="currentColor" fill-opacity=".1"/>
+  <path d="M3.5 9.3h17M8.6 9.3 12 19.5l3.4-10.2"/>
+</svg>
+<text x="1001" y="468" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="500" fill="#163d43">精英</text>
+<text x="1198" y="468" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" font-weight="400" fill="#6d8588" text-anchor="end">前 10%</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" color="#6185A0" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" role="img" x="962" y="491">
+  <title>进阶 · 前 25%</title>
+  <path d="m6.2 11.5 5.8-5.8 5.8 5.8M6.2 18.3l5.8-5.8 5.8 5.8"/>
+</svg>
+<text x="1001" y="510" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="500" fill="#163d43">进阶</text>
+<text x="1198" y="510" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" font-weight="400" fill="#6d8588" text-anchor="end">前 25%</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" color="#718B6C" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" role="img" x="962" y="533">
+  <title>新锐 · 前 50%</title>
+  <path d="M12 14C6.8 14 4 11.4 4 6.7c4.8 0 8 2.3 8 7.3Z" fill="currentColor" fill-opacity=".1"/>
+  <path d="M12 11.5c0-4.3 2.8-7.1 8-7.3 0 4.6-2.2 7.3-8 7.3Z" fill="currentColor" fill-opacity=".1"/>
+  <path d="M12 20v-8.5"/>
+</svg>
+<text x="1001" y="552" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="500" fill="#163d43">新锐</text>
+<text x="1198" y="552" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" font-weight="400" fill="#6d8588" text-anchor="end">前 50%</text>
+<text x="963" y="615" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" font-weight="400" fill="#6d8588">第 4 名起按百分位评定</text>
+<text x="58" y="674" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="500" fill="#16827e">游客单设备 / 账号可选多设备同步 / 公开参榜另行选择</text>
+<text x="58" y="707" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" font-weight="400" fill="#6d8588">图中昵称、用量与名次为合成示例。当前官网早期榜单包含系统模拟参与者，详见官网说明。</text>
+<text x="1221" y="707" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" font-weight="400" fill="#6d8588" text-anchor="end">tokendaily.net/leaderboard</text>
+</svg>

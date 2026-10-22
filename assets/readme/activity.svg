@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="700" viewBox="0 0 1280 700" role="img" aria-labelledby="title desc">
+<title id="title">每日用量日历与近 30 天趋势</title><desc id="desc">TokenDaily 总 Token 历史的两个示意视图。左侧为最近 13 周日历，右侧为最近 30 天趋势。浮窗另有 20 周日历。界面与数值为合成示例，空白日期表示无记录，不表示零用量。</desc>
+<defs><linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#112f36"/><stop offset="1" stop-color="#1b464a"/></linearGradient><linearGradient id="mint" x1="0" x2="1"><stop stop-color="#16827e"/><stop offset="1" stop-color="#75c6b3"/></linearGradient><filter id="shadow" x="-40%" y="-20%" width="180%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#06282d" flood-opacity=".16"/></filter></defs>
+<rect x="0" y="0" width="1280" height="700" rx="20" fill="#f2f7f4"/>
+<text x="58" y="55" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" font-weight="600" fill="#648983" letter-spacing="2.6">YOUR USAGE, OVER TIME</text>
+<text x="58" y="113" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="40" font-weight="700" fill="#163d43">每天的投入，都有迹可循。</text>
+<text x="59" y="151" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="400" fill="#6d8588">从当天的数字，到一段时间的节奏。</text>
+<text x="1220" y="58" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" font-weight="500" fill="#76938d" text-anchor="end" letter-spacing="1.6">02 / ACTIVITY</text>
+<text x="60" y="204" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" font-weight="600" fill="#163d43">热力日历</text>
+<text x="618" y="204" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" font-weight="400" fill="#6d8588" text-anchor="end">最近 13 周</text>
+<rect x="58" y="222" width="564" height="400" rx="14" fill="#ffffff" stroke="#dce8e5" stroke-width="1"/>
+<text x="84" y="253" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" font-weight="500" fill="#72948c" letter-spacing="1.5">LOCAL / 本机日志合计</text>
+<text x="84" y="284" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="700" fill="#163d43">总 Token 历史</text>
+<rect x="514" y="243" width="80" height="23" rx="11" fill="#edf6f1"/>
+<text x="554" y="259" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" font-weight="500" fill="#5a9286" text-anchor="middle">来源数据</text>
+<text x="84" y="330" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="35" font-weight="700" fill="#16827e">246.80万</text>
+<text x="267" y="329" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" font-weight="400" fill="#6d8588">Tokens</text>
+<text x="84" y="356" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" font-weight="400" fill="#6d8588">10 月 22 日 · 本机日志记录 · 最近统计的一天</text>
+<text x="85" y="389" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" font-weight="500" fill="#6d8588">趋势</text>
+<text x="143" y="389" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" font-weight="500" fill="#16827e">日历</text>
+<path d="M142 398H171" stroke="#16827e" stroke-width="2"/>
+<path d="M84 576H596" stroke="#dce8e5" stroke-width="1"/>
+<text x="84" y="598" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" font-weight="400" fill="#6d8588">按北京时间归日 · 图中数据为示例</text>
+<text x="660" y="204" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" font-weight="600" fill="#163d43">用量趋势</text>
+<text x="1218" y="204" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" font-weight="400" fill="#6d8588" text-anchor="end">最近 30 天</text>
+<rect x="658" y="222" width="564" height="400" rx="14" fill="#ffffff" stroke="#dce8e5" stroke-width="1"/>
+<text x="684" y="253" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" font-weight="500" fill="#72948c" letter-spacing="1.5">LOCAL / 本机日志合计</text>
+<text x="684" y="284" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="700" fill="#163d43">总 Token 历史</text>
+<rect x="1114" y="243" width="80" height="23" rx="11" fill="#edf6f1"/>
+<text x="1154" y="259" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" font-weight="500" fill="#5a9286" text-anchor="middle">来源数据</text>
+<text x="684" y="330" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="35" font-weight="700" fill="#16827e">246.80万</text>
+<text x="867" y="329" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" font-weight="400" fill="#6d8588">Tokens</text>
+<text x="684" y="356" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" font-weight="400" fill="#6d8588">10 月 22 日 · 本机日志记录 · 最近统计的一天</text>
+<text x="685" y="389" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" font-weight="500" fill="#16827e">趋势</text>
+<text x="743" y="389" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" font-weight="500" fill="#6d8588">日历</text>
+<path d="M683 398H712" stroke="#16827e" stroke-width="2"/>
+<path d="M684 576H1196" stroke="#dce8e5" stroke-width="1"/>
+<text x="684" y="598" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" font-weight="400" fill="#6d8588">按北京时间归日 · 图中数据为示例</text>
+<rect x="175" y="419" width="14" height="14" rx="2" fill="#eaf2ef"/>
+<rect x="175" y="437" width="14" height="14" rx="2" fill="#91cfbe"/>
+<rect x="175" y="455" width="14" height="14" rx="2" fill="#1d8d81"/>
+<rect x="175" y="473" width="14" height="14" rx="2" fill="#c7e8de"/>
+<rect x="175" y="491" width="14" height="14" rx="2" fill="#55b3a0"/>
+<rect x="175" y="509" width="14" height="14" rx="2" fill="#c7e8de"/>
+<rect x="175" y="527" width="14" height="14" rx="2" fill="#91cfbe"/>
+<rect x="193" y="419" width="14" height="14" rx="2" fill="#1d8d81"/>
+<rect x="193" y="437" width="14" height="14" rx="2" fill="#c7e8de"/>
+<rect x="193" y="455" width="14" height="14" rx="2" fill="#55b3a0"/>
+<rect x="193" y="473" width="14" height="14" rx="2" fill="#eaf2ef"/>
+<rect x="193" y="491" width="14" height="14" rx="2" fill="#91cfbe"/>
+<rect x="193" y="509" width="14" height="14" rx="2" fill="#1d8d81"/>
+<rect x="193" y="527" width="14" height="14" rx="2" fill="#c7e8de"/>
+<rect x="211" y="419" width="14" height="14" rx="2" fill="#55b3a0"/>
+<rect x="211" y="437" width="14" height="14" rx="2" fill="#eaf2ef"/>
+<rect x="211" y="455" width="14" height="14" rx="2" fill="#91cfbe"/>
+<rect x="211" y="473" width="14" height="14" rx="2" fill="#1d8d81"/>
+<rect x="211" y="491" width="14" height="14" rx="2" fill="#c7e8de"/>
+<rect x="211" y="509" width="14" height="14" rx="2" fill="#55b3a0"/>
+<rect x="211" y="527" width="14" height="14" rx="2" fill="#eaf2ef"/>
+<rect x="229" y="419" width="14" height="14" rx="2" fill="#91cfbe"/>
+<rect x="229" y="437" width="14" height="14" rx="2" fill="#55b3a0"/>
+<rect x="229" y="455" width="14" height="14" rx="2" fill="#c7e8de"/>
+<rect x="229" y="473" width="14" height="14" rx="2" fill="#55b3a0"/>
+<rect x="229" y="491" width="14" height="14" rx="2" fill="#eaf2ef"/>
+<rect x="229" y="509" width="14" height="14" rx="2" fill="#91cfbe"/>
+<rect x="229" y="527" width="14" height="14" rx="2" fill="#1d8d81"/>
+<rect x="247" y="419" width="14" height="14" rx="2" fill="#c7e8de"/>
+<rect x="247" y="437" width="14" height="14" rx="2" fill="#91cfbe"/>
+<rect x="247" y="455" width="14" height="14" rx="2" fill="#1d8d81"/>
+<rect x="247" y="473" width="14" height="14" rx="2" fill="#91cfbe"/>
+<rect x="247" y="491" width="14" height="14" rx="2" fill="#55b3a0"/>
+<rect x="247" y="509" width="14" height="14" rx="2" fill="#c7e8de"/>
+<rect x="247" y="527" width="14" height="14" rx="2" fill="#55b3a0"/>
+<rect x="265" y="419" width="14" height="14" rx="2" fill="#1d8d81"/>
+<rect x="265" y="437" width="14" height="14" rx="2" fill="#c7e8de"/>
+<rect x="265" y="455" width="14" height="14" rx="2" fill="#55b3a0"/>
+<rect x="265" y="473" width="14" height="14" rx="2" fill="#c7e8de"/>
+<rect x="265" y="491" width="14" height="14" rx="2" fill="#91cfbe"/>
+<rect x="265" y="509" width="14" height="14" rx="2" fill="#1d8d81"/>
+<rect x="265" y="527" width="14" height="14" rx="2" fill="#91cfbe"/>
+<rect x="283" y="419" width="14" height="14" rx="2" fill="#55b3a0"/>
+<rect x="283" y="437" width="14" height="14" rx="2" fill="#eaf2ef"/>
+<rect x="283" y="455" width="14" height="14" rx="2" fill="#91cfbe"/>
+<rect x="283" y="473" width="14" height="14" rx="2" fill="#1d8d81"/>
+<rect x="283" y="491" width="14" height="14" rx="2" fill="#c7e8de"/>
+<rect x="283" y="509" width="14" height="14" rx="2" fill="#55b3a0"/>
+<rect x="283" y="527" width="14" height="14" rx="2" fill="#c7e8de"/>
+<rect x="301" y="419" width="14" height="14" rx="2" fill="#91cfbe"/>
+<rect x="301" y="437" width="14" height="14" rx="2" fill="#1d8d81"/>
+<rect x="301" y="455" width="14" height="14" rx="2" fill="#c7e8de"/>
+<rect x="301" y="473" width="14" height="14" rx="2" fill="#55b3a0"/>
+<rect x="301" y="491" width="14" height="14" rx="2" fill="#eaf2ef"/>
+<rect x="301" y="509" width="14" height="14" rx="2" fill="#91cfbe"/>
+<rect x="301" y="527" width="14" height="14" rx="2" fill="#1d8d81"/>
+<rect x="319" y="419" width="14" height="14" rx="2" fill="#c7e8de"/>
+<rect x="319" y="437" width="14" height="14" rx="2" fill="#55b3a0"/>
+<rect x="319" y="455" width="14" height="14" rx="2" fill="#eaf2ef"/>
+<rect x="319" y="473" width="14" height="14" rx="2" fill="#91cfbe"/>
+<rect x="319" y="491" width="14" height="14" rx="2" fill="#1d8d81"/>
+<rect x="319" y="509" width="14" height="14" rx="2" fill="#c7e8de"/>
+<rect x="319" y="527" width="14" height="14" rx="2" fill="#55b3a0"/>
+<rect x="337" y="419" width="14" height="14" rx="2" fill="#1d8d81"/>
+<rect x="337" y="437" width="14" height="14" rx="2" fill="#91cfbe"/>
+<rect x="337" y="455" width="14" height="14" rx="2" fill="#55b3a0"/>
+<rect x="337" y="473" width="14" height="14" rx="2" fill="#c7e8de"/>
+<rect x="337" y="491" width="14" height="14" rx="2" fill="#55b3a0"/>
+<rect x="337" y="509" width="14" height="14" rx="2" fill="#eaf2ef"/>
+<rect x="337" y="527" width="14" height="14" rx="2" fill="#91cfbe"/>
+<rect x="355" y="419" width="14" height="14" rx="2" fill="#55b3a0"/>
+<rect x="355" y="437" width="14" height="14" rx="2" fill="#c7e8de"/>
+<rect x="355" y="455" width="14" height="14" rx="2" fill="#91cfbe"/>
+<rect x="355" y="473" width="14" height="14" rx="2" fill="#1d8d81"/>
+<rect x="355" y="491" width="14" height="14" rx="2" fill="#91cfbe"/>
+<rect x="355" y="509" width="14" height="14" rx="2" fill="#55b3a0"/>
+<rect x="355" y="527" width="14" height="14" rx="2" fill="#c7e8de"/>
+<rect x="373" y="419" width="14" height="14" rx="2" fill="#91cfbe"/>
+<rect x="373" y="437" width="14" height="14" rx="2" fill="#1d8d81"/>
+<rect x="373" y="455" width="14" height="14" rx="2" fill="#c7e8de"/>
+<rect x="373" y="473" width="14" height="14" rx="2" fill="#55b3a0"/>
+<rect x="373" y="491" width="14" height="14" rx="2" fill="#c7e8de"/>
+<rect x="373" y="509" width="14" height="14" rx="2" fill="#91cfbe"/>
+<rect x="373" y="527" width="14" height="14" rx="2" fill="#1d8d81"/>
+<rect x="391" y="419" width="14" height="14" rx="2" fill="#c7e8de"/>
+<rect x="391" y="437" width="14" height="14" rx="2" fill="#55b3a0"/>
+<rect x="391" y="455" width="14" height="14" rx="2" fill="#eaf2ef"/>
+<rect x="391" y="473" width="14" height="14" rx="2" fill="#91cfbe"/>
+<rect x="391" y="491" width="14" height="14" rx="2" fill="#1d8d81"/>
+<rect x="391" y="509" width="14" height="14" rx="2" fill="#c7e8de"/>
+<rect x="391" y="527" width="14" height="14" rx="2" fill="#55b3a0"/>
+<text x="175" y="413" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="9" font-weight="400" fill="#6d8588">8 月</text>
+<text x="266" y="413" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="9" font-weight="400" fill="#6d8588">9 月</text>
+<text x="357" y="413" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="9" font-weight="400" fill="#6d8588">10 月</text>
+<text x="149" y="446" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="9" font-weight="400" fill="#6d8588">一</text>
+<text x="149" y="482" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="9" font-weight="400" fill="#6d8588">三</text>
+<text x="149" y="518" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="9" font-weight="400" fill="#6d8588">五</text>
+<rect x="436" y="552" width="11" height="8" rx="1" fill="#eaf2ef"/>
+<rect x="451" y="552" width="11" height="8" rx="1" fill="#c7e8de"/>
+<rect x="466" y="552" width="11" height="8" rx="1" fill="#91cfbe"/>
+<rect x="481" y="552" width="11" height="8" rx="1" fill="#55b3a0"/>
+<rect x="496" y="552" width="11" height="8" rx="1" fill="#1d8d81"/>
+<text x="417" y="559" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="9" font-weight="400" fill="#6d8588">少</text>
+<text x="516" y="559" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="9" font-weight="400" fill="#6d8588">多</text>
+<path d="M685 431H1194" stroke="#edf2f0" stroke-width="1"/>
+<path d="M685 473H1194" stroke="#edf2f0" stroke-width="1"/>
+<path d="M685 515H1194" stroke="#edf2f0" stroke-width="1"/>
+<path d="M685 557H1194" stroke="#edf2f0" stroke-width="1"/>
+<rect x="686.0" y="517.32" width="11.2" height="39.68" rx="2" fill="#6abbab"/>
+<rect x="702.9" y="498.12" width="11.2" height="58.88" rx="2" fill="#6abbab"/>
+<rect x="719.8" y="507.08" width="11.2" height="49.92" rx="2" fill="#6abbab"/>
+<rect x="736.7" y="484.03999999999996" width="11.2" height="72.96000000000001" rx="2" fill="#6abbab"/>
+<rect x="753.6" y="455.88" width="11.2" height="101.12" rx="2" fill="#6abbab"/>
+<rect x="770.5" y="467.4" width="11.2" height="89.60000000000001" rx="2" fill="#6abbab"/>
+<rect x="787.4" y="475.08" width="11.2" height="81.92" rx="2" fill="#6abbab"/>
+<rect x="804.3" y="490.44" width="11.2" height="66.56" rx="2" fill="#6abbab"/>
+<rect x="821.2" y="480.2" width="11.2" height="76.8" rx="2" fill="#6abbab"/>
+<rect x="838.1" y="510.92" width="11.2" height="46.08" rx="2" fill="#6abbab"/>
+<rect x="855.0" y="501.96" width="11.2" height="55.04" rx="2" fill="#6abbab"/>
+<rect x="871.9" y="481.48" width="11.2" height="75.52" rx="2" fill="#6abbab"/>
+<rect x="888.8" y="490.44" width="11.2" height="66.56" rx="2" fill="#6abbab"/>
+<rect x="905.7" y="504.52" width="11.2" height="52.480000000000004" rx="2" fill="#6abbab"/>
+<rect x="922.5999999999999" y="521.16" width="11.2" height="35.84" rx="2" fill="#6abbab"/>
+<rect x="939.5" y="513.48" width="11.2" height="43.52" rx="2" fill="#6abbab"/>
+<rect x="956.4" y="485.32" width="11.2" height="71.68" rx="2" fill="#6abbab"/>
+<rect x="973.3" y="471.24" width="11.2" height="85.76" rx="2" fill="#6abbab"/>
+<rect x="990.2" y="493.0" width="11.2" height="64.0" rx="2" fill="#6abbab"/>
+<rect x="1007.0999999999999" y="482.76" width="11.2" height="74.24" rx="2" fill="#6abbab"/>
+<rect x="1024.0" y="466.12" width="11.2" height="90.88" rx="2" fill="#6abbab"/>
+<rect x="1040.9" y="434.12" width="11.2" height="122.88" rx="2" fill="#6abbab"/>
+<rect x="1057.8" y="444.36" width="11.2" height="112.64" rx="2" fill="#6abbab"/>
+<rect x="1074.7" y="426.44" width="11.2" height="130.56" rx="2" fill="#6abbab"/>
+<rect x="1091.6" y="455.88" width="11.2" height="101.12" rx="2" fill="#6abbab"/>
+<rect x="1108.5" y="473.8" width="11.2" height="83.2" rx="2" fill="#6abbab"/>
+<rect x="1125.4" y="461.0" width="11.2" height="96.0" rx="2" fill="#6abbab"/>
+<rect x="1142.3" y="446.92" width="11.2" height="110.08" rx="2" fill="#6abbab"/>
+<rect x="1159.1999999999998" y="468.68" width="11.2" height="88.32000000000001" rx="2" fill="#6abbab"/>
+<rect x="1176.1" y="440.52" width="11.2" height="116.48" rx="2" fill="#2a9487"/>
+<text x="686" y="570" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="9" font-weight="400" fill="#6d8588">9 月 23 日</text>
+<text x="1191" y="570" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="9" font-weight="400" fill="#6d8588" text-anchor="end">10 月 22 日</text>
+<text x="58" y="663" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="400" fill="#6d8588">悬浮窗：最近 20 周日历    ·    详情页：30 天趋势 / 13 周日历</text>
+<text x="1220" y="663" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" font-weight="400" fill="#6d8588" text-anchor="end">界面示意 · 合成数据</text>
+</svg>
