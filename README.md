@@ -1,13 +1,10 @@
 <p align="center"><img src="assets/readme/hero.svg" alt="TokenDaily — 支持 Windows 与 macOS 的个人 AI 用量与额度助手。今日 Token、剩余额度、重置时间与日历，画面均为合成示意。" width="1000"></p>
 
-<p align="center">
-  <a href="#快速开始"><strong>获取桌面端</strong></a> ·
-  <a href="https://tokendaily.net/zh/">官方网站</a> ·
-  <a href="https://tokendaily.net/leaderboard/">社区榜单</a> ·
-  <a href="CONTRIBUTING.md">参与共建</a>
-</p>
+| 开始使用 | 社区用量榜 | 开放共建 |
+| --- | --- | --- |
+| Windows 下载安装；macOS 从源码运行。<br><br>[**下载与安装 →**](#快速开始) · [官方网站](https://tokendaily.net/zh/) | 查看日榜、周榜、工具分榜与个人荣誉。<br><br>[**打开社区榜单 →**](https://tokendaily.net/leaderboard/) | 免费开源，欢迎完善来源适配、平台兼容、测试与文档。<br><br>[**贡献指南 →**](CONTRIBUTING.md) · [Apache-2.0](LICENSE) |
 
-<p align="center"><strong>支持 Windows 与 macOS</strong> · 免费开源 · Apache-2.0<br><sub>所有展示图均为合成示意，不代表真实账户、实际账单或实时排名。</sub></p>
+<p><sub>展示说明：用量、费用、额度、积分、昵称与名次均为合成示例，不代表真实账户、实际账单或实时排名。</sub></p>
 
 ## 一眼看清，按需展开
 

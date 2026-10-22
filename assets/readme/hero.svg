@@ -1,10 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="600" viewBox="0 0 1280 600" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="690" viewBox="0 0 1280 690" role="img" aria-labelledby="title desc">
 <title id="title">TokenDaily — Windows 与 macOS 的个人 AI 用量助手</title>
-<desc id="desc">紧凑品牌横幅：左侧为 TokenDaily 渐变 Logo、平等并列的 Windows 和 macOS 标识与产品介绍，右侧为悬浮面板结构示意。今日 Token、API 费用估算、排名、额度、积分与日历均为合成示例，不代表真实账户或账单。平台安装与验证状态见 README 快速开始。</desc>
+<desc id="desc">品牌首图：左侧为放大的 TokenDaily 渐变 Logo、两行产品主张与来源说明，右侧紧邻悬浮面板结构示意。支持 Windows 与 macOS。今日 Token、API 费用估算、排名、额度、积分与日历均为合成示例，不代表真实账户或账单。平台安装与验证状态见 README 快速开始。</desc>
 <defs><filter id="shadow" x="-40%" y="-20%" width="180%" height="160%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#06282d" flood-opacity=".13"/></filter></defs>
-<rect x=".5" y=".5" width="1279" height="599" rx="20" fill="#ffffff" stroke="#e1ece8"/>
-<rect x="716" y="22" width="540" height="540" rx="16" fill="#f0f7f4"/>
-<svg xmlns="http://www.w3.org/2000/svg" x="52" y="36" width="272" height="76.5" viewBox="123 301 1312 369" role="img" aria-labelledby="brand-title brand-desc" shape-rendering="geometricPrecision">
+<rect width="1280" height="690" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" x="48" y="34" width="620" height="174.375" viewBox="123 301 1312 369" role="img" aria-labelledby="brand-title brand-desc" shape-rendering="geometricPrecision">
 <title id="brand-title">TokenDaily — complete gradient logo</title>
 <desc id="brand-desc">TokenDaily icon and wordmark reconstructed as true vector paths with smooth teal-to-mint gradients. The approved ring, detached dot and rounded square are retained. The letters are outlined from the supplied artwork; no font or bitmap is embedded.</desc>
 <defs xmlns="http://www.w3.org/2000/svg">
@@ -555,23 +554,14 @@
   <path id="brand-glyph-y" fill="url(#brand-text-gradient-y)" d="M 1308.750 590.327 C 1302.480 590.092 1295.996 588.729 1294.438 587.318 C 1293.846 586.783 1293.866 584.963 1294.496 581.975 C 1294.769 580.683 1294.994 579.289 1294.996 578.878 C 1294.998 578.466 1295.218 577.060 1295.485 575.753 C 1295.751 574.445 1296.213 571.969 1296.510 570.250 C 1297.447 564.836 1297.513 564.566 1298.008 564.118 C 1298.569 563.610 1300.303 563.722 1302.875 564.434 C 1305.412 565.135 1311.429 565.042 1313.500 564.268 C 1318.470 562.413 1321.798 558.850 1323.772 553.271 L 1324.468 551.305 L 1323.781 550.340 C 1323.113 549.401 1322.250 547.530 1319.877 541.875 C 1318.626 538.891 1318.597 538.823 1317.645 536.657 C 1317.290 535.850 1317.000 535.080 1317.000 534.945 C 1317.000 534.811 1316.837 534.346 1316.637 533.913 C 1316.437 533.480 1315.943 532.281 1315.538 531.250 C 1315.133 530.219 1314.461 528.644 1314.045 527.750 C 1313.629 526.856 1312.710 524.775 1312.003 523.125 C 1311.296 521.475 1310.621 519.900 1310.502 519.625 C 1310.382 519.350 1310.007 518.450 1309.667 517.625 C 1308.891 515.745 1306.832 510.874 1306.391 509.875 C 1306.208 509.462 1305.756 508.394 1305.385 507.500 C 1305.015 506.606 1304.561 505.538 1304.376 505.125 C 1303.632 503.465 1301.765 499.021 1301.120 497.375 C 1300.479 495.740 1299.162 492.591 1298.401 490.875 C 1298.218 490.462 1297.834 489.562 1297.547 488.875 C 1296.363 486.035 1294.693 482.076 1294.384 481.375 C 1294.201 480.962 1293.804 480.006 1293.500 479.250 C 1292.554 476.893 1291.726 474.920 1291.193 473.750 C 1290.911 473.131 1290.348 471.894 1289.942 471.000 C 1289.535 470.106 1288.873 468.487 1288.470 467.402 C 1288.066 466.317 1287.589 465.136 1287.409 464.777 C 1286.076 462.124 1284.750 458.637 1284.750 457.784 C 1284.750 456.201 1284.287 456.250 1299.145 456.251 C 1315.610 456.252 1313.765 455.677 1315.977 461.500 C 1317.958 466.715 1322.612 478.614 1324.387 483.000 C 1324.581 483.481 1325.129 484.944 1325.603 486.250 C 1326.077 487.556 1326.706 489.244 1327.000 490.000 C 1327.294 490.756 1327.737 491.938 1327.984 492.625 C 1328.426 493.857 1329.970 497.662 1330.622 499.125 C 1330.951 499.864 1331.320 500.808 1333.117 505.500 C 1333.617 506.806 1334.232 508.381 1334.483 509.000 C 1334.734 509.619 1335.167 510.744 1335.444 511.500 C 1337.255 516.438 1339.176 520.875 1339.502 520.875 C 1339.746 520.875 1340.349 519.547 1341.319 516.875 C 1344.292 508.689 1345.091 506.535 1346.514 502.875 C 1347.315 500.812 1348.380 498.056 1348.880 496.750 C 1349.380 495.444 1350.278 493.137 1350.876 491.625 C 1351.983 488.820 1353.615 484.571 1354.618 481.875 C 1354.925 481.050 1355.526 479.475 1355.954 478.375 C 1356.382 477.275 1357.645 473.900 1358.762 470.875 C 1359.878 467.850 1361.165 464.363 1361.622 463.125 C 1363.314 458.543 1363.801 457.502 1364.542 456.878 L 1365.288 456.250 L 1378.485 456.250 C 1395.783 456.250 1394.608 455.363 1390.627 465.419 C 1387.853 472.426 1387.231 473.968 1386.507 475.625 C 1385.985 476.820 1384.693 480.060 1383.167 484.000 C 1380.687 490.403 1380.157 491.734 1379.081 494.250 C 1378.464 495.694 1377.761 497.325 1377.518 497.875 C 1377.276 498.425 1376.837 499.494 1376.541 500.250 C 1374.660 505.067 1372.074 511.598 1370.999 514.250 C 1370.279 516.026 1363.012 534.183 1362.245 536.125 C 1361.864 537.087 1360.861 539.562 1360.016 541.625 C 1359.170 543.688 1357.515 547.794 1356.336 550.750 C 1355.158 553.706 1353.700 557.178 1353.097 558.466 C 1352.494 559.753 1352.000 560.858 1352.000 560.921 C 1352.000 561.585 1348.048 568.813 1346.284 571.375 C 1337.068 584.756 1324.838 590.932 1308.750 590.327 Z"/>
 </g>
 </svg>
-<rect x="52" y="134" width="119" height="30" rx="15" fill="#edf6f3"/>
-<rect x="181" y="134" width="106" height="30" rx="15" fill="#edf6f3"/>
-<text x="111.5" y="154" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="600" fill="#27655e" text-anchor="middle">Windows</text>
-<text x="234" y="154" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="600" fill="#27655e" text-anchor="middle">macOS</text>
-<text x="52" y="241" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="62" font-weight="700" fill="#163d43" >AI 用了多少，</text>
-<text x="52" y="317" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="62" font-weight="700" fill="#16827e" >心中有数。</text>
-<text x="54" y="368" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="400" fill="#536f72" >用量、额度、每日记录。</text>
-<text x="54" y="403" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="400" fill="#536f72" >把常用 AI，收进一块桌面面板。</text>
-<path d="M54 441H612" stroke="#dce8e5"/>
-<text x="54" y="475" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" font-weight="500" fill="#27655e" >实时额度</text>
-<circle cx="158" cy="468" r="2" fill="#9bbdb2"/>
-<text x="178" y="475" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" font-weight="500" fill="#27655e" >用量趋势</text>
-<circle cx="282" cy="468" r="2" fill="#9bbdb2"/>
-<text x="302" y="475" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" font-weight="500" fill="#27655e" >可选榜单</text>
-<text x="54" y="522" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="400" fill="#536f72" >Codex / Claude Code / WorkBuddy / TRAE</text>
-<text x="54" y="566" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="400" fill="#6d8588" >免费开源 · 默认本地 · 无需注册即可监测</text>
-<g transform="translate(145 0) scale(.85)"><g filter="url(#shadow)">
+<text x="48" y="306" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="90" font-weight="700" fill="#163d43" >AI 用了多少，</text>
+<text x="48" y="414" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="90" font-weight="700" fill="#16827e" >心中有数。</text>
+<text x="50" y="478" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="31" font-weight="400" fill="#536f72" >把多工具用量、剩余额度与每日记录，</text>
+<text x="50" y="523" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="31" font-weight="400" fill="#536f72" >收进一块桌面面板。</text>
+<path d="M50 556H668" stroke="#dce8e5"/>
+<text x="50" y="598" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="25" font-weight="400" fill="#536f72" >Codex · Claude Code · WorkBuddy · TRAE</text>
+<text x="50" y="658" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="19" font-weight="400" fill="#6d8588" >Windows · macOS  /  本地优先 · 免费开源</text>
+<g transform="translate(-40 -6) scale(1.045)"><g filter="url(#shadow)">
 <rect x="756" y="44" width="438" height="588" rx="18" fill="#ffffff"/>
 </g>
 <rect x="757" y="45" width="436" height="586" rx="17" fill="#ffffff" stroke="#cfe3de" stroke-width="1"/>
@@ -924,5 +914,4 @@
 <text x="776" y="616" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" font-weight="400" fill="#6d8588">本机记录</text>
 <text x="1174" y="616" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" font-weight="500" fill="#16827e" text-anchor="end">↻  刷新</text>
 </g>
-<text x="1230" y="583" font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" font-weight="400" fill="#6d8588" text-anchor="end">界面示意 / 数据均为示例</text>
 </svg>
