@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="4096" height="4096" viewBox="17 17 335 335" role="img" aria-labelledby="title desc" shape-rendering="geometricPrecision">
+  <title id="title">TokenDaily gradient logo</title>
+  <desc id="desc">Vector reconstruction of the supplied TokenDaily icon. Teal-to-mint continuous gradients; circular ring with an upper-right separate dot and a central rounded square. Transparent background. No embedded bitmap.</desc>
+  <defs>
+    <linearGradient id="ring-gradient" gradientUnits="userSpaceOnUse" x1="61.330306" y1="267.675756" x2="304.851944" y2="100.278632" color-interpolation="sRGB">
+<stop offset="0.000000" stop-color="#035373"/>
+<stop offset="0.031250" stop-color="#045775"/>
+<stop offset="0.062500" stop-color="#055b78"/>
+<stop offset="0.093750" stop-color="#065f7b"/>
+<stop offset="0.125000" stop-color="#07637d"/>
+<stop offset="0.156250" stop-color="#08667f"/>
+<stop offset="0.187500" stop-color="#096981"/>
+<stop offset="0.218750" stop-color="#0a6d83"/>
+<stop offset="0.250000" stop-color="#0b6f85"/>
+<stop offset="0.281250" stop-color="#0c7287"/>
+<stop offset="0.312500" stop-color="#0d7589"/>
+<stop offset="0.343750" stop-color="#0d778a"/>
+<stop offset="0.375000" stop-color="#0e7a8c"/>
+<stop offset="0.406250" stop-color="#0f7d8e"/>
+<stop offset="0.437500" stop-color="#107f8f"/>
+<stop offset="0.468750" stop-color="#108190"/>
+<stop offset="0.500000" stop-color="#118492"/>
+<stop offset="0.531250" stop-color="#118693"/>
+<stop offset="0.562500" stop-color="#128995"/>
+<stop offset="0.593750" stop-color="#148d97"/>
+<stop offset="0.625000" stop-color="#17929a"/>
+<stop offset="0.656250" stop-color="#209b9f"/>
+<stop offset="0.687500" stop-color="#2ba6a5"/>
+<stop offset="0.718750" stop-color="#38b2aa"/>
+<stop offset="0.750000" stop-color="#45bcb0"/>
+<stop offset="0.781250" stop-color="#4ec3b4"/>
+<stop offset="0.812500" stop-color="#54c6b5"/>
+<stop offset="0.843750" stop-color="#58c7b6"/>
+<stop offset="0.875000" stop-color="#5cc9b7"/>
+<stop offset="0.906250" stop-color="#5fcab8"/>
+<stop offset="0.937500" stop-color="#62cbb9"/>
+<stop offset="0.968750" stop-color="#64ccb9"/>
+<stop offset="1.000000" stop-color="#64ccb9"/>
+</linearGradient>
+    <linearGradient id="square-gradient" gradientUnits="userSpaceOnUse" x1="140.521077" y1="240.397573" x2="226.771064" y2="129.287875" color-interpolation="sRGB">
+<stop offset="0.000000" stop-color="#024e6b"/>
+<stop offset="0.031250" stop-color="#044f6c"/>
+<stop offset="0.062500" stop-color="#06516d"/>
+<stop offset="0.093750" stop-color="#08536e"/>
+<stop offset="0.125000" stop-color="#09556f"/>
+<stop offset="0.156250" stop-color="#0b5771"/>
+<stop offset="0.187500" stop-color="#0d5a72"/>
+<stop offset="0.218750" stop-color="#0f5c74"/>
+<stop offset="0.250000" stop-color="#115f75"/>
+<stop offset="0.281250" stop-color="#136277"/>
+<stop offset="0.312500" stop-color="#156579"/>
+<stop offset="0.343750" stop-color="#17687b"/>
+<stop offset="0.375000" stop-color="#196b7d"/>
+<stop offset="0.406250" stop-color="#1b6f7f"/>
+<stop offset="0.437500" stop-color="#1e7381"/>
+<stop offset="0.468750" stop-color="#207784"/>
+<stop offset="0.500000" stop-color="#237b86"/>
+<stop offset="0.531250" stop-color="#268089"/>
+<stop offset="0.562500" stop-color="#29858c"/>
+<stop offset="0.593750" stop-color="#2d8b90"/>
+<stop offset="0.625000" stop-color="#329193"/>
+<stop offset="0.656250" stop-color="#369797"/>
+<stop offset="0.687500" stop-color="#3b9d9a"/>
+<stop offset="0.718750" stop-color="#3fa39e"/>
+<stop offset="0.750000" stop-color="#44a9a2"/>
+<stop offset="0.781250" stop-color="#49afa5"/>
+<stop offset="0.812500" stop-color="#4eb5a9"/>
+<stop offset="0.843750" stop-color="#54bbac"/>
+<stop offset="0.875000" stop-color="#59c1b0"/>
+<stop offset="0.906250" stop-color="#5fc7b4"/>
+<stop offset="0.937500" stop-color="#65cdb7"/>
+<stop offset="0.968750" stop-color="#6cd3bb"/>
+<stop offset="1.000000" stop-color="#72d9bf"/>
+</linearGradient>
+    <linearGradient id="dot-gradient" gradientUnits="userSpaceOnUse" x1="271.874595" y1="107.064225" x2="307.849408" y2="94.490418" color-interpolation="sRGB">
+<stop offset="0.000000" stop-color="#097387"/>
+<stop offset="0.031250" stop-color="#0b7689"/>
+<stop offset="0.062500" stop-color="#0e788a"/>
+<stop offset="0.093750" stop-color="#107b8c"/>
+<stop offset="0.125000" stop-color="#137e8d"/>
+<stop offset="0.156250" stop-color="#15818f"/>
+<stop offset="0.187500" stop-color="#188490"/>
+<stop offset="0.218750" stop-color="#1b8892"/>
+<stop offset="0.250000" stop-color="#1d8b94"/>
+<stop offset="0.281250" stop-color="#208e95"/>
+<stop offset="0.312500" stop-color="#239197"/>
+<stop offset="0.343750" stop-color="#269599"/>
+<stop offset="0.375000" stop-color="#28989b"/>
+<stop offset="0.406250" stop-color="#2b9c9d"/>
+<stop offset="0.437500" stop-color="#2ea09f"/>
+<stop offset="0.468750" stop-color="#31a3a1"/>
+<stop offset="0.500000" stop-color="#34a6a3"/>
+<stop offset="0.531250" stop-color="#37aaa4"/>
+<stop offset="0.562500" stop-color="#3aada6"/>
+<stop offset="0.593750" stop-color="#3eb0a8"/>
+<stop offset="0.625000" stop-color="#41b3a9"/>
+<stop offset="0.656250" stop-color="#44b7ab"/>
+<stop offset="0.687500" stop-color="#47baad"/>
+<stop offset="0.718750" stop-color="#4bbdae"/>
+<stop offset="0.750000" stop-color="#4ec0b0"/>
+<stop offset="0.781250" stop-color="#51c3b2"/>
+<stop offset="0.812500" stop-color="#54c6b3"/>
+<stop offset="0.843750" stop-color="#57c9b5"/>
+<stop offset="0.875000" stop-color="#5accb7"/>
+<stop offset="0.906250" stop-color="#5ecfb8"/>
+<stop offset="0.937500" stop-color="#61d2ba"/>
+<stop offset="0.968750" stop-color="#64d5bc"/>
+<stop offset="1.000000" stop-color="#67d8bd"/>
+</linearGradient>
+
+  <radialGradient id="ring-highlight" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="3.5" gradientTransform="translate(250.046412 88.227276) scale(20.647984 28.946366)" color-interpolation="sRGB">
+<stop offset="0.000000" stop-color="#96edcf" stop-opacity="0.686915"/>
+<stop offset="0.035714" stop-color="#96edcf" stop-opacity="0.681569"/>
+<stop offset="0.071429" stop-color="#96edcf" stop-opacity="0.665780"/>
+<stop offset="0.107143" stop-color="#96edcf" stop-opacity="0.640275"/>
+<stop offset="0.142857" stop-color="#96edcf" stop-opacity="0.606200"/>
+<stop offset="0.178571" stop-color="#96edcf" stop-opacity="0.565040"/>
+<stop offset="0.214286" stop-color="#96edcf" stop-opacity="0.518510"/>
+<stop offset="0.250000" stop-color="#96edcf" stop-opacity="0.468435"/>
+<stop offset="0.285714" stop-color="#96edcf" stop-opacity="0.416635"/>
+<stop offset="0.321429" stop-color="#96edcf" stop-opacity="0.364818"/>
+<stop offset="0.357143" stop-color="#96edcf" stop-opacity="0.314492"/>
+<stop offset="0.392857" stop-color="#96edcf" stop-opacity="0.266906"/>
+<stop offset="0.428571" stop-color="#96edcf" stop-opacity="0.223008"/>
+<stop offset="0.464286" stop-color="#96edcf" stop-opacity="0.183442"/>
+<stop offset="0.500000" stop-color="#96edcf" stop-opacity="0.148556"/>
+<stop offset="0.535714" stop-color="#96edcf" stop-opacity="0.118439"/>
+<stop offset="0.571429" stop-color="#96edcf" stop-opacity="0.092964"/>
+<stop offset="0.607143" stop-color="#96edcf" stop-opacity="0.071837"/>
+<stop offset="0.642857" stop-color="#96edcf" stop-opacity="0.054651"/>
+<stop offset="0.678571" stop-color="#96edcf" stop-opacity="0.040931"/>
+<stop offset="0.714286" stop-color="#96edcf" stop-opacity="0.030181"/>
+<stop offset="0.750000" stop-color="#96edcf" stop-opacity="0.021909"/>
+<stop offset="0.785714" stop-color="#96edcf" stop-opacity="0.015658"/>
+<stop offset="0.821429" stop-color="#96edcf" stop-opacity="0.011017"/>
+<stop offset="0.857143" stop-color="#96edcf" stop-opacity="0.007631"/>
+<stop offset="0.892857" stop-color="#96edcf" stop-opacity="0.005204"/>
+<stop offset="0.928571" stop-color="#96edcf" stop-opacity="0.003494"/>
+<stop offset="0.964286" stop-color="#96edcf" stop-opacity="0.002309"/>
+<stop offset="1.000000" stop-color="#96edcf" stop-opacity="0.000000"/>
+</radialGradient>
+  </defs>
+  <g id="tokendaily-icon">
+    <path id="ring" d="M 274.531261 67.917520 A 147.753668 147.753668 0 1 0 317.712549 123.082050 A 36.441179 36.441179 0 0 1 276.230680 136.111942 A 104.937774 104.937774 0 1 1 251.920420 105.044631 A 36.441179 36.441179 0 0 1 274.531261 67.917520 Z" fill="url(#ring-gradient)"/>
+    <path id="ring-highlight-layer" d="M 274.531261 67.917520 A 147.753668 147.753668 0 1 0 317.712549 123.082050 A 36.441179 36.441179 0 0 1 276.230680 136.111942 A 104.937774 104.937774 0 1 1 251.920420 105.044631 A 36.441179 36.441179 0 0 1 274.531261 67.917520 Z" fill="url(#ring-highlight)"/>
+    <circle id="dot" cx="289.862001" cy="100.777321" r="19.054447" fill="url(#dot-gradient)"/>
+    <rect id="center-square" x="134.306688" y="134.725545" width="98.678765" height="100.234358" rx="12.040577" ry="12.040577" fill="url(#square-gradient)"/>
+  </g>
+</svg>

@@ -1,0 +1,61 @@
+/* One compact row per AI. Percentages and credit amounts keep their own units. */
+.floating-balances{flex:1;min-height:0;padding:7px 0 2px;display:flex;flex-direction:column;justify-content:center}
+.balance-strips{display:flex;flex-direction:column;gap:6px}
+.balance-strip{position:relative;height:56px;flex:none;display:flex;align-items:center;gap:8px;border:1px solid transparent;border-radius:8px;background:transparent;padding:4px 7px;user-select:none}
+.balance-strip .provider-logo{width:21px;height:21px;flex:none;object-fit:contain;border-radius:5px;pointer-events:none}
+.balance-strip.is-sortable{cursor:grab;touch-action:none}
+.balance-strip.is-sortable:hover,.balance-strip:focus-within{border-color:#c3dcdc;background:#f0f6f5}
+.balance-strip-body{min-width:0;flex:1;display:flex;flex-direction:column;justify-content:center;gap:4px}
+.balance-strip-heading{display:flex;align-items:baseline;gap:4px;min-width:0;line-height:20px}
+.balance-strip-name{display:flex;align-items:baseline;gap:5px;min-width:0;flex:1;font-size:12px;white-space:nowrap}
+.balance-strip-name small{font-size:9px;font-weight:400;color:#69888c;overflow:hidden;text-overflow:ellipsis}
+.balance-strip-amount{flex:none;font:600 22px/20px Bahnschrift,'Segoe UI Variable',sans-serif;letter-spacing:-.04em;color:#193f49;white-space:nowrap;font-variant-numeric:tabular-nums}
+.balance-strip-amount small{font:400 9px/1 'Segoe UI Variable','Microsoft YaHei UI',sans-serif;letter-spacing:0;margin-left:3px}
+.balance-more{border:0;background:transparent;color:#63858a;font-size:9px;padding:0 2px;flex:none;cursor:pointer}
+.balance-track{height:3px;flex:none;background:#deebeb;border-radius:3px;overflow:hidden}.balance-track>div{height:100%;background:#2a8990;border-radius:3px}.balance-track.is-neutral{background:transparent;border-bottom:1px solid #deebeb;height:3px}
+.balance-strip-meta{display:flex;justify-content:space-between;gap:5px;line-height:12px;min-width:0;color:#638087;font-size:10px}
+.balance-strip-meta>span{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.balance-strip-meta>small{flex:none;white-space:nowrap;font-size:9px;max-width:84px;overflow:hidden;text-overflow:ellipsis}
+.balance-strip.is-low .balance-strip-amount,.balance-strip.is-low .balance-strip-meta{color:#a45235}.balance-strip.is-low .balance-track>div{background:#b05f37}
+.balance-strip.is-stale .balance-strip-amount{color:#738b90}.balance-strip.is-dragging{cursor:grabbing;border-color:#2a8990;background:#e7f2ef;box-shadow:0 2px 5px #193f4915}
+.balance-strip.has-quota-pair .balance-strip-body{gap:2px}
+.balance-pair-heading{display:flex;align-items:center;gap:6px;min-width:0;height:13px;font-size:11px;line-height:13px;color:#31515a}
+.balance-pair-heading strong{font-weight:600}.balance-pair-heading span{font-size:9px;color:#84979b}
+.balance-pair-heading small{margin-left:auto;min-width:0;max-width:78px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:9px;color:#638087}
+.balance-more.has-hidden-low{color:#a45235;font-weight:700}
+.balance-quota-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0;min-width:0}
+.balance-quota-mini{min-width:0;padding:0 7px 0 0}.balance-quota-mini+.balance-quota-mini{padding:0 0 0 7px;border-left:1px solid #dce9e8}
+.balance-quota-mini>div:first-child{display:flex;align-items:baseline;justify-content:space-between;gap:3px;line-height:16px}
+.balance-quota-mini>div:first-child span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:9px;color:#638087}
+.balance-quota-mini>div:first-child strong{flex:none;font:600 16px/16px Bahnschrift,'Segoe UI Variable',sans-serif;color:#193f49;font-variant-numeric:tabular-nums}
+.balance-quota-mini .balance-track{height:3px;margin:1px 0 2px}.balance-quota-mini .balance-track>i{display:block;height:100%;background:#2a8990;border-radius:3px}
+.balance-quota-mini>small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:8px;line-height:10px;color:#638087}
+.balance-quota-mini.is-low>div:first-child strong,.balance-quota-mini.is-low>small{color:#a45235}.balance-quota-mini.is-low .balance-track>i{background:#b05f37}
+.balance-strip.is-stale .balance-quota-mini>div:first-child strong{color:#738b90}
+.balance-order-note{font-size:9px;line-height:13px;color:#638087;margin:4px 0 0;text-align:right;min-height:0}.balance-order-note:empty{display:none}.balance-order-note.has-error{color:#a45235}
+.floating-shell .floating-usage{padding:3px 0 6px}.floating-shell.mode-usage .floating-token-amount strong{font-size:34px;line-height:1.05}
+.floating-shell .floating-breakdown,.floating-shell .floating-usage-scope{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:9px;line-height:12px}
+.floating-shell .floating-footer{min-height:37px}.floating-shell .floating-error{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:13px;padding:0 0 3px;font-size:9px}
+.balance-manage{align-self:flex-end;border:0;background:transparent;color:#638087;font:inherit;font-size:9px;padding:4px 0 0;cursor:pointer}
+.is-editing .balance-strips{gap:10px;padding-top:8px}
+.is-editing .balance-strip{border-color:#c3dcdc;background:#f0f6f5}
+.balance-remove{position:absolute;right:-5px;top:-8px;width:21px;height:21px;border:1px solid #c3dcdc;border-radius:50%;background:#fff;color:#385e65;font:16px/18px 'Segoe UI',sans-serif;padding:0;cursor:pointer;z-index:1}
+.balance-remove:hover{border-color:#a45235;color:#a45235;background:#fff7f2}
+.balance-edit-actions{display:flex;align-items:center;justify-content:space-between;margin-top:14px;gap:12px}
+.balance-edit-actions button,.balance-picker button,.balance-empty button{border:1px solid #c3dcdc;border-radius:7px;background:transparent;color:#197e87;font:inherit;font-size:11px;padding:6px 9px;cursor:pointer}
+.balance-edit-actions .balance-done{background:#197e87;border-color:#197e87;color:#fff}
+.balance-picker{display:flex;flex-direction:column;gap:4px}
+.balance-picker-heading{display:flex;align-items:center;justify-content:space-between;font-size:12px;margin-bottom:2px}
+.balance-picker-heading button{border:0;padding:3px}
+.balance-picker-row{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:49px;border-bottom:1px solid #deebeb}
+.balance-picker-row>div{display:flex;flex-direction:column;min-width:0;gap:3px}
+.balance-picker-row strong{font-size:12px;font-weight:500}.balance-picker-row small{font-size:9px;color:#638087}
+.balance-picker-row button{flex:none;font-size:10px;padding:5px 7px}.balance-picker-row button:disabled{border-color:transparent;color:#738b90;cursor:default}
+.balance-picker .balance-connect{align-self:flex-start;border:0;font-size:10px;padding:4px 0}
+.balance-empty{display:flex;flex-direction:column;align-items:center;gap:5px;padding:5px 0;color:#638087;font-size:11px}.balance-empty small{font-size:9px}
+.balance-help{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.balance-strip.is-calendar{height:112px}
+.floating-calendar{position:relative;flex:1;min-width:0;display:flex;flex-direction:column;justify-content:center}
+.calendar-mini-health{position:absolute;left:0;top:0;z-index:2;color:#946438;background:#f8faf9;font-size:9px;line-height:10px;text-align:center;width:12px;height:12px;border:1px solid #dccbab;border-radius:50%}
+.floating-component-settings{border:1px solid #c3dcdc;border-radius:8px;margin:12px 0 0;padding:8px 12px}.floating-component-settings legend{font-size:13px;color:#638087}
+.floating-api-cost{font-size:9px;line-height:14px;color:#607d82;white-space:nowrap}.floating-api-cost span{color:#197e87;font-variant-numeric:tabular-nums}.floating-rank{color:#197e87;white-space:nowrap;font-variant-numeric:tabular-nums}
+@media(prefers-reduced-motion:no-preference){.balance-strip{transition:background .12s,border-color .12s}.is-editing .balance-strip:not(.is-dragging){animation:balance-edit-hint .24s ease-in-out infinite}@keyframes balance-edit-hint{0%,100%{transform:rotate(0)}25%{transform:rotate(-.5deg)}75%{transform:rotate(.5deg)}}}

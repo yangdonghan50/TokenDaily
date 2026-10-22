@@ -1,0 +1,28 @@
+/* A compact instrument strip: today's local totals and this week's rank keep
+   separate labels and units, while sharing the established TokenDaily palette. */
+.floating-summary-grid{display:grid;margin:7px 0 7px;touch-action:none}
+.floating-metric{position:relative;min-width:0;display:flex;flex-direction:column;gap:4px;padding:0 7px;cursor:grab;user-select:none;border-radius:4px;outline-offset:2px}
+.floating-metric:first-child{padding-left:0}.floating-metric:last-child{padding-right:0}
+.floating-metric+.floating-metric{border-left:1px solid #deebeb}
+.floating-metric-label{font-size:10px;line-height:14px;color:#607d82}
+.floating-metric-value{height:29px;display:flex;align-items:baseline;gap:2px;white-space:nowrap;color:#19343d}
+.floating-metric-value strong{font:600 24px/29px Bahnschrift,"Segoe UI Variable",sans-serif;letter-spacing:-.045em;font-variant-numeric:tabular-nums;min-width:0;overflow:hidden;text-overflow:clip}
+.metric-usage .floating-metric-value{color:#176f69}.metric-usage .floating-metric-value strong{font-size:27px}
+.floating-metric-unit{font-size:11px;flex:none}
+.metric-cost .floating-metric-value strong{font-size:20px;letter-spacing:-.04em}
+.floating-metric-value.is-long strong{font-size:15px;letter-spacing:-.04em}
+.metric-usage .floating-metric-value.is-long strong{font-size:20px}
+.floating-metric.is-old .floating-metric-value{color:#738b90}
+.floating-metric:hover,.floating-metric:focus-visible,.metric-components.is-editing .floating-metric{background:#edf4f2}
+.floating-metric.is-dragging{background:#e2f0ec;cursor:grabbing;outline:1px solid #2a8990}
+.metric-components.is-editing .floating-summary-grid{margin-top:14px}
+.metric-remove{right:0;top:-13px;width:18px;height:18px;font-size:14px;line-height:15px}
+.metric-picker{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;padding:4px 0 6px;border-bottom:1px solid #deebeb}
+.balance-picker .metric-picker button{font-size:10px;padding:6px 0;white-space:nowrap}
+.metric-picker button:disabled{color:#738b90;border-color:transparent;cursor:default}
+.floating-identity{display:grid;place-items:center;width:27px;height:27px;padding:3px;border:1px solid #c3dcdc;border-radius:50%;background:#edf5f2;color:#267f80;cursor:pointer;font:600 12px/1 'Segoe UI','Microsoft YaHei UI',sans-serif}
+.floating-identity:hover{background:#dceee8}.floating-identity svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round}
+@media(prefers-reduced-motion:no-preference){.metric-components.is-editing .floating-metric:not(.is-dragging){animation:balance-edit-hint .24s ease-in-out infinite}}
+
+.metric-rank .floating-metric-value{align-items:center;gap:3px}
+.floating-rank-honor{width:22px;height:22px;flex:0 0 22px}

@@ -1,0 +1,44 @@
+.app-shell.settings-app{width:100%;max-width:none;height:100vh;min-height:0;padding:0;overflow:hidden;background:#fff;box-shadow:none}
+.settings-app>.topbar{height:62px;padding:0 24px;border-bottom:1px solid #dce7e5;background:#fff}
+.settings-app .brand-lockup{width:134px;height:38px}
+.settings-window-title{border-left:1px solid #dae6e3;padding-left:15px;color:#5d7877;font-size:13px;font-weight:500;letter-spacing:0}
+.settings-layout{display:grid;grid-template-columns:170px minmax(0,1fr);height:calc(100vh - 62px);min-height:0}
+.settings-sidebar{display:flex;flex-direction:column;min-width:0;padding:26px 12px 18px;background:#f3f7f5;border-right:1px solid #e1eae7}
+.settings-sidebar-caption{padding:0 13px;margin-bottom:15px;color:#829997;font-size:10px;letter-spacing:.07em}
+.settings-sidebar nav{display:grid;gap:5px}
+.settings-sidebar button{width:100%;min-height:42px;border:0;border-radius:9px;background:transparent;color:#5c7977;padding:10px 13px;text-align:left;font-size:12px}
+.settings-sidebar button:hover{background:#e8f0ed;color:#246e6a}
+.settings-sidebar button.active{background:#deebe5;color:#176d63;font-weight:700}
+.settings-sidebar p{margin:auto 13px 0;color:#92a6a0;font-size:10px}
+.settings-main{min-width:0;min-height:0;overflow:auto;padding:28px 34px 38px;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#b7cdca transparent}
+.settings-main>h1{margin:0;color:#1e4244;font-size:23px;letter-spacing:-.035em}
+.settings-lead{margin:7px 0 24px;color:#7d9694;font-size:12px;line-height:1.65}
+.settings-source-list{display:grid;overflow:hidden;border:1px solid #dde9e6;border-radius:13px;background:#fff}
+.settings-source-item{display:flex;align-items:center;gap:12px;min-height:75px;border:0;border-bottom:1px solid #e7efed;background:#fff;padding:12px 15px;text-align:left;color:#214c4e}
+.settings-source-item:last-child{border-bottom:0}
+.settings-source-item:hover{background:#f4f9f7}
+.provider-logo{width:24px;height:24px;object-fit:contain;border-radius:6px;flex:none}
+.settings-source-item .provider-logo{width:32px;height:32px}
+.settings-source-item>span:nth-child(2){display:grid;gap:3px;min-width:0;flex:1}
+.settings-source-item strong{font-size:13px}
+.settings-source-item small{font-size:10px;color:#89a09c}
+.settings-source-state{max-width:155px;color:#6d8984;font-size:10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.settings-source-item>b{font-size:18px;font-weight:400;color:#a6bcb8}
+.settings-provider-heading{display:flex;align-items:center;gap:11px;padding:10px 0 3px}
+.settings-provider-heading .provider-logo{width:33px;height:33px}
+.settings-provider-heading h2{margin:0;font-size:19px}
+.settings-main .settings-group{border:1px solid #dfeae7;border-radius:12px;background:#fff;padding:18px 20px;margin:14px 0 0}
+.settings-main .settings-group h2{margin:0 0 10px;font-size:14px;color:#234e50}
+.settings-main .settings-group>.back-button{margin:0 0 8px;font-weight:600}
+.settings-main .settings-group .settings-provider-heading h2{margin:0}
+.settings-main .settings-group .muted{margin:8px 0;line-height:1.65}
+.settings-main .setting-row{gap:20px;border-bottom:1px solid #edf2f0;padding:5px 0;min-height:48px}
+.settings-main .setting-row:last-of-type{border-bottom:0}
+.settings-main .settings-action{margin-top:11px}
+.settings-main .credit-settings{margin-top:14px}
+.settings-main .privacy-note{padding:13px 0 0;font-size:10px}
+.settings-app>.subview{height:calc(100vh - 62px);max-width:680px;margin:0 auto;overflow:auto;padding:24px 26px 38px}
+.settings-app>.subview .refresh-button{margin:-11px 0 14px}
+.settings-app>.demo-switcher{position:fixed;right:20px;bottom:5px;background:#fff;padding:4px 7px}
+@media(max-width:610px){.settings-layout{grid-template-columns:1fr;grid-template-rows:auto minmax(0,1fr)}.settings-sidebar{padding:8px 12px;border-right:0;border-bottom:1px solid #e1eae7}.settings-sidebar-caption,.settings-sidebar p{display:none}.settings-sidebar nav{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:3px}.settings-sidebar button{text-align:center;padding:9px 3px;min-height:38px;font-size:11px}.settings-main{padding:22px 18px 30px}.settings-app>.topbar{padding:0 18px}.settings-source-state{max-width:100px}}
+@media(max-width:390px){.settings-source-state{display:none}.settings-app .brand-lockup{width:115px}.settings-main .settings-group{padding:16px}}

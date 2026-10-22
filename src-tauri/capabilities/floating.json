@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "floating",
+  "description": "Read shared state and drag the compact floating window",
+  "windows": ["floating"],
+  "permissions": ["core:default", "core:window:allow-start-dragging", "core:window:allow-set-size", "core:window:allow-set-position"]
+}

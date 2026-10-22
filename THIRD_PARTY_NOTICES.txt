@@ -1,0 +1,38 @@
+Third-party notices for TokenDaily
+
+The Apache-2.0 license for original TokenDaily code does not replace the
+licenses of dependencies, referenced code or third-party assets. Package
+dependencies retain the licenses declared by their upstream projects.
+
+Provider names and identification badges
+---------------------------------------
+assets/providers/*.svg are original plain-letter badges (CX, CL, WB, TR)
+created for TokenDaily and covered by the project's Apache-2.0 license.
+They do not reproduce provider logos. Provider names identify integrations;
+the names and trademarks remain with their respective owners. No endorsement,
+affiliation or trademark license is implied.
+
+TokenTracker — TRAE database format and page/WAL reading reference
+https://github.com/xiufengsun/TokenTracker
+
+MIT License
+
+Copyright (c) 2026 xiufengsun
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

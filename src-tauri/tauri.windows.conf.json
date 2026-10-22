@@ -1,0 +1,31 @@
+{
+  "bundle": {
+    "targets": [
+      "nsis"
+    ],
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/icon.ico"
+    ],
+    "windows": {
+      "nsis": {
+        "installerIcon": "icons/icon.ico",
+        "uninstallerIcon": "icons/icon.ico"
+      }
+    },
+    "createUpdaterArtifacts": true
+  },
+  "plugins": {
+    "updater": {
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDNDQzEzQjVFNUZCMUI0MDgKUldRSXRMRmZYanZCUEdOTTMyZkY3Tnd0VVN0WlE4RkpNUzdveEluM3lHSjh2Z2h5UW5LTVdWZDQK",
+      "windows": {
+        "installMode": "passive"
+      },
+      "endpoints": [
+        "https://tokendaily.net/updates/windows-x86_64.json"
+      ],
+      "requireSignedVersion": true
+    }
+  }
+}

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="418" viewBox="0 0 720 418" role="img" aria-labelledby="title desc">
+  <title id="title">TokenDaily 悬浮面板结构示意</title>
+  <desc id="desc">今日 Token、预估费用、可选今日排名、四个来源及每日用量日历，右上角可主动收起。所有数字为示例。</desc>
+  <rect width="720" height="418" rx="18" fill="#eff6f4"/>
+  <g stroke="#dce9e5" stroke-width="1"><path d="M0 72H720M0 144H720M0 216H720M0 288H720M0 360H720"/><path d="M72 0V418M144 0V418M216 0V418M288 0V418M360 0V418M432 0V418M504 0V418M576 0V418M648 0V418"/></g>
+  <rect x="112" y="21" width="496" height="378" rx="15" fill="#153b43" opacity=".10"/>
+  <rect x="110" y="19" width="496" height="378" rx="15" fill="#fff" stroke="#c7dbd8"/>
+  <path d="M125 19h466a15 15 0 0 1 15 15" fill="none" stroke="#21888b" stroke-width="3"/>
+  <circle cx="143" cy="50" r="11" fill="none" stroke="#12858a" stroke-width="2.4"/>
+  <path d="m139 47 7-2 2 8-8 2z" fill="#12858a"/>
+  <text x="163" y="55" fill="#163a44" font-family="Segoe UI,Arial,sans-serif" font-weight="700" font-size="17">TokenDaily</text>
+  <path d="m501 47 5 6 5-6" fill="none" stroke="#5c7d83" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><title>收起悬浮面板</title></path>
+  <text x="531" y="54" fill="#5c7d83" font-family="Segoe UI,Arial,sans-serif" font-size="12">设置  ×</text>
+  <path d="M126 72h464M126 149h464M126 349h464" stroke="#dce8e6"/>
+  <g font-family="Segoe UI,Arial,sans-serif" fill="#637e83" font-size="11"><text x="131" y="94">今日 Token</text><text x="285" y="94">预估费用</text><text x="438" y="94">今日排名</text></g>
+  <g font-family="Segoe UI,Arial,sans-serif" fill="#163d45" font-weight="700"><text x="131" y="128" font-size="30">2.06 亿</text><text x="285" y="128" font-size="28">$55.12</text><text x="438" y="128" font-size="28">#7</text></g>
+  <path d="M267 85v52M420 85v52" stroke="#e4eceb"/>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="13">
+    <rect x="128" y="162" width="18" height="18" rx="4" fill="#F1F3F8" stroke="#D8DDE8"/><text x="137" y="174" text-anchor="middle" fill="#334155" font-size="7.5" font-weight="700">CX</text><text x="153" y="176" fill="#173a43" font-weight="600">Codex · 7 天额度</text><text x="558" y="176" fill="#173a43" font-weight="700" text-anchor="end">81%</text>
+    <rect x="130" y="183" width="428" height="4" rx="2" fill="#e4eeed"/><rect x="130" y="183" width="347" height="4" rx="2" fill="#258b8e"/>
+    <rect x="128" y="203" width="18" height="18" rx="4" fill="#F1F3F8" stroke="#D8DDE8"/><text x="137" y="215" text-anchor="middle" fill="#334155" font-size="7.5" font-weight="700">CL</text><text x="153" y="217" fill="#173a43" font-weight="600">Claude Code</text><text x="355" y="217" fill="#173a43">5 小时 99%</text><text x="558" y="217" fill="#173a43" text-anchor="end">7 天 100%</text>
+    <rect x="128" y="238" width="18" height="18" rx="4" fill="#F1F3F8" stroke="#D8DDE8"/><text x="137" y="250" text-anchor="middle" fill="#334155" font-size="7.5" font-weight="700">WB</text><text x="153" y="252" fill="#173a43" font-weight="600">WorkBuddy</text><text x="558" y="252" fill="#173a43" text-anchor="end">1,234.56 积分</text>
+    <rect x="128" y="273" width="18" height="18" rx="4" fill="#F1F3F8" stroke="#D8DDE8"/><text x="137" y="285" text-anchor="middle" fill="#334155" font-size="7.5" font-weight="700">TR</text><text x="153" y="287" fill="#173a43" font-weight="600">TRAE</text><text x="558" y="287" fill="#173a43" text-anchor="end">2,345.67 积分</text>
+  </g>
+  <path d="M130 230h428M130 265h428M130 300h428" stroke="#e5eeec"/>
+  <text x="131" y="327" fill="#607e82" font-family="Segoe UI,Arial,sans-serif" font-size="11">每日 Token</text>
+  <g id="heatmap"/>
+  <g fill="#addcd1"><rect x="130" y="336" width="13" height="8" rx="2"/><rect x="148" y="336" width="13" height="8" rx="2"/><rect x="184" y="336" width="13" height="8" rx="2"/><rect x="202" y="336" width="13" height="8" rx="2"/><rect x="238" y="336" width="13" height="8" rx="2"/><rect x="256" y="336" width="13" height="8" rx="2"/><rect x="292" y="336" width="13" height="8" rx="2"/><rect x="328" y="336" width="13" height="8" rx="2"/><rect x="346" y="336" width="13" height="8" rx="2"/><rect x="382" y="336" width="13" height="8" rx="2"/><rect x="418" y="336" width="13" height="8" rx="2"/><rect x="454" y="336" width="13" height="8" rx="2"/><rect x="472" y="336" width="13" height="8" rx="2"/><rect x="508" y="336" width="13" height="8" rx="2"/><rect x="544" y="336" width="13" height="8" rx="2"/></g>
+  <g fill="#5bb3a4"><rect x="166" y="336" width="13" height="8" rx="2"/><rect x="220" y="336" width="13" height="8" rx="2"/><rect x="274" y="336" width="13" height="8" rx="2"/><rect x="310" y="336" width="13" height="8" rx="2"/><rect x="364" y="336" width="13" height="8" rx="2"/><rect x="400" y="336" width="13" height="8" rx="2"/><rect x="436" y="336" width="13" height="8" rx="2"/><rect x="490" y="336" width="13" height="8" rx="2"/><rect x="526" y="336" width="13" height="8" rx="2"/></g>
+  <text x="131" y="376" fill="#6c8588" font-family="Segoe UI,Arial,sans-serif" font-size="10">本机记录 · 北京时间</text>
+  <text x="558" y="376" fill="#6c8588" font-family="Segoe UI,Arial,sans-serif" font-size="10" text-anchor="end">UI 结构示意 · 示例数据</text>
+</svg>
