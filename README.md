@@ -1,22 +1,13 @@
-<p align="center">
-  <a href="https://tokendaily.net/zh/"><img src="assets/TokenDaily_full_logo_gradient.svg" alt="TokenDaily" width="340"></a>
-</p>
-
-<p align="center"><strong>常驻桌面的个人 AI 用量与额度助手</strong></p>
-<p align="center">今日用了多少，额度还剩多少，何时恢复。抬眼就能看见。</p>
+<p align="center"><img src="assets/readme/hero.svg" alt="TokenDaily — 支持 Windows 与 macOS 的个人 AI 用量与额度助手。今日 Token、剩余额度、重置时间与日历，画面均为合成示意。" width="1000"></p>
 
 <p align="center">
-  <a href="https://tokendaily.net/zh/"><strong>下载 Windows 版</strong></a> ·
-  <a href="#快速开始">快速开始</a> ·
+  <a href="#快速开始"><strong>获取桌面端</strong></a> ·
+  <a href="https://tokendaily.net/zh/">官方网站</a> ·
   <a href="https://tokendaily.net/leaderboard/">社区榜单</a> ·
   <a href="CONTRIBUTING.md">参与共建</a>
 </p>
 
-<p align="center"><sub>桌面免费 · Apache-2.0 · 默认本地 · 无需注册即可监测</sub></p>
-
-<p align="center"><img src="assets/readme/hero.svg" alt="TokenDaily 悬浮面板示意：今日 Token、费用参考、额度、积分与日历，均为合成数据" width="1000"></p>
-
-<p align="center"><sub>所有展示图均为合成示意，不代表真实账户、实际账单或实时排名。</sub></p>
+<p align="center"><strong>支持 Windows 与 macOS</strong> · 免费开源 · Apache-2.0<br><sub>所有展示图均为合成示意，不代表真实账户、实际账单或实时排名。</sub></p>
 
 ## 一眼看清，按需展开
 
@@ -25,7 +16,7 @@
 - **费用参考**：按已核验模型与计数估算等效 API 费用，标明覆盖范围；不代表实际账单。
 - **及时提醒**：低额度与确认恢复提醒，依据可靠的新数据触发并去重。
 - **随手查看**：托盘、悬浮球、贴边隐藏和快捷键；组件可排序、隐藏与恢复。
-- **保持更新**：Windows 支持主动下载、验签并原位更新，保留设置与身份。
+- **回看趋势**：用热力日历与每日曲线，查看长期使用习惯和近期变化。
 
 <p align="center"><img src="assets/readme/activity.svg" alt="每日 Token 日历与最近30天趋势，图中数值均为合成示例" width="1000"></p>
 
@@ -52,11 +43,11 @@
 
 ## 快速开始
 
-1. **安装**：前往 [官网](https://tokendaily.net/zh/) 下载 Windows x64 版。
+1. **安装或运行**：Windows 从 [官网](https://tokendaily.net/zh/) 下载；macOS 按 [开发指南](CONTRIBUTING.md#本地开发) 从源码运行。
 2. **接入**：在设置中连接正在使用的工具，确认读取状态。
 3. **查看**：按习惯开启悬浮窗、快捷键和提醒，点击指标查看详情。
 
-**Windows** 是当前公开下载平台。**macOS Intel** 已有本机验证，尚未正式签名、公证或公开分发；**Apple Silicon** 已交叉构建，实机未验收。[平台状态](docs/FEATURE_PARITY.md) · [应用更新](docs/UPDATES.md)
+macOS 已在 Intel Mac 实机运行，通用版已构建，Apple 芯片实机待验证。Mac 正式签名安装包与官网更新通道尚未开放；Windows 已提供验签更新。[平台详情](docs/FEATURE_PARITY.md) · [更新说明](docs/UPDATES.md)
 
 ## 本地优先，开放共建
 
