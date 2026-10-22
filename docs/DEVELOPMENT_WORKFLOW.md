@@ -2,11 +2,22 @@
 
 ## 2026-10-22 公开仓库起点
 
-桌面共建仓库为 [TokenDaily-Desktop](https://github.com/yangdonghan50/TokenDaily-Desktop)，公开 `main` 从脱敏后的独立根提交开始。原私库留存旧历史；旧私库的分支、标签及本地候选引用不能整体推送或合并到公开仓库，也不使用 `--mirror`、`--all`、`--tags` 迁移。历史进度文档引用的部分内部提交仅用于追溯原验收，不属于公开历史。
+桌面共建仓库为 [TokenDaily](https://github.com/yangdonghan50/TokenDaily)，公开 `main` 从脱敏后的独立根提交开始。原私库改名为 `yangdonghan50/TokenDaily-Private`，留存旧历史并保持私有；旧私库的分支、标签及本地候选引用不能整体推送或合并到公开仓库，也不使用 `--mirror`、`--all`、`--tags` 迁移。历史进度文档引用的部分内部提交仅用于追溯原验收，不属于公开历史。
 
-两台开发机开始新的公开任务时，从公开仓库的 `main` 建短期分支。新检出可执行 `git clone https://github.com/yangdonghan50/TokenDaily-Desktop.git`；旧工作目录有未完成修改时先保留在原私有分支，再将需要的文件差异单独审查、扫描后应用到公开分支。不要把两套无关 Git 历史合并。后续桌面产品只在公开主线演进，私库保留为历史档案。
+两台开发机开始新的公开任务时，从公开仓库的 `main` 建短期分支。新检出可执行 `git clone https://github.com/yangdonghan50/TokenDaily.git`；旧工作目录有未完成修改时先保留在原私有分支，再将需要的文件差异单独审查、扫描后应用到公开分支。不要把两套无关 Git 历史合并。后续桌面产品只在公开主线演进，私库保留为历史档案。
 
 本次 Windows 发布工作目录仍保留原私库 `origin`；单独命名的 `public` remote 指向新公开仓库，首次只推送已验证无父提交的指定快照到 `main`。普通新克隆的 `origin` 则自然指向公开仓库。运行下方日常命令前先核对 `git remote -v` 和当前分支的基线，不直接把旧目录的自动推送约定用于公开库。
+
+### 同日改名后的旧克隆迁移
+
+公开库由 `TokenDaily-Desktop` 改为 `TokenDaily`，原私库由 `TokenDaily` 改为 `TokenDaily-Private`。这是两个仓库的名称调整；身份、可见性与各自历史没有互换。Windows 当前工作目录及其关联 worktree 已更新远端。Mac 或其他电脑上的**旧私库克隆**，应在下一次 fetch/pull/push 前执行：
+
+```bash
+git remote set-url origin https://github.com/yangdonghan50/TokenDaily-Private.git
+git remote -v
+```
+
+原 `TokenDaily` 地址现指向公开库，不能依赖 GitHub 将其重定向到私库。若是此前克隆的**公开库** `TokenDaily-Desktop`，则将 origin 更新为 `https://github.com/yangdonghan50/TokenDaily.git`。保留旧私库作档案不等于允许把旧分支推向公开库；新的共建任务仍按上文从公开 main 开始。
 
 状态：2026-10-17 制定。适用于一台 Windows 电脑和一台 Mac 电脑在同一 TokenDaily 仓库内并行开发。Intel Mac 已完成首次编译、真实来源与基础运行检查，完整原生能力与安装态仍待验收；功能边界与目录分层以 [ARCHITECTURE.md](ARCHITECTURE.md) 为准。
 

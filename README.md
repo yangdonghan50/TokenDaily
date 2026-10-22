@@ -91,4 +91,4 @@ TokenDaily 桌面端免费提供，原始源码与文档采用 [Apache-2.0](LICE
 
 欢迎改进来源适配、平台兼容、测试与文档。开始前请读 [贡献指南](CONTRIBUTING.md)；漏洞报告、数据读取和可选同步边界见 [安全说明](SECURITY.md)。贡献和本机监测无需购买网页订阅。官网的 AI 工具情报、优惠与更新提醒订阅是独立经营的服务，不包含在本桌面源码分发中。
 
-在 [GitHub 公开仓库](https://github.com/yangdonghan50/TokenDaily-Desktop) 提交问题和参与共建。公开历史从经过脱敏审查的初始快照开始，检查范围和发布方式见 [开源审查记录](docs/OPEN_SOURCE_REVIEW.md)。请勿提交账户凭据、对话、原始日志、数据库或签名材料。最新已验证能力与限制见 [功能对照](docs/FEATURE_PARITY.md)和[开发进度](docs/PROGRESS.md)。
+在 [GitHub 公开仓库](https://github.com/yangdonghan50/TokenDaily) 提交问题和参与共建。公开历史从经过脱敏审查的初始快照开始，检查范围和发布方式见 [开源审查记录](docs/OPEN_SOURCE_REVIEW.md)。请勿提交账户凭据、对话、原始日志、数据库或签名材料。最新已验证能力与限制见 [功能对照](docs/FEATURE_PARITY.md)和[开发进度](docs/PROGRESS.md)。

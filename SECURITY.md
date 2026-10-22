@@ -4,9 +4,9 @@
 
 请勿在公开 Issue、PR、评论或截图中放入凭据、原始用量日志、数据库、会话正文、个人路径或可被利用的完整漏洞细节。
 
-请使用公开仓库的 [私密漏洞报告入口](https://github.com/yangdonghan50/TokenDaily-Desktop/security/advisories/new)，通过 GitHub Private vulnerability reporting 联系维护者。需要登录 GitHub，报告内容不会成为公开 Issue。如果入口不可用，可先创建仅包含“需要私密安全联系”的 Issue，不填漏洞细节或任何敏感材料，待维护者提供私密通道后提交。
+请使用公开仓库的 [私密漏洞报告入口](https://github.com/yangdonghan50/TokenDaily/security/advisories/new)，通过 GitHub Private vulnerability reporting 联系维护者。需要登录 GitHub，报告内容不会成为公开 Issue。如果入口不可用，可先创建仅包含“需要私密安全联系”的 Issue，不填漏洞细节或任何敏感材料，待维护者提供私密通道后提交。
 
-该渠道已于 2026-10-22 启用，并通过 GitHub API 回读确认。
+该渠道已于 2026-10-22 启用，公开仓库同日改名为 TokenDaily 后再次通过 GitHub API 回读确认。
 
 报告可包含：应用版本或提交、操作系统、影响范围、最小复现步骤、预期与实际行为、使用合成数据的验证方法。仅在你拥有权限的本机或隔离环境验证；不要测试他人的账户、厂商服务或生产数据。维护者确认收到后协商修复与披露；当前无付费漏洞奖励、固定响应 SLA 或长期支持版本承诺。
 

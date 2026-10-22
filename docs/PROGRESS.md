@@ -2,6 +2,15 @@
 
 > 2026-10-22 公开前脱敏说明：历史验收记录中的个人路径、昵称及可识别的真实账户数值已替换为占位符；测试数量、版本、技术结论及未验证项保留。原始私有 Git 历史未改写，不能据当前文件已脱敏就直接公开旧历史。审查见 [OPEN_SOURCE_REVIEW](OPEN_SOURCE_REVIEW.md)。
 
+## 2026-10-22：公开仓库采用 TokenDaily 名称
+
+- 按用户要求先将原私库改名为 `yangdonghan50/TokenDaily-Private`，再将公开库 `TokenDaily-Desktop` 改为 [TokenDaily](https://github.com/yangdonghan50/TokenDaily)。原私库 ID `1422056631`、公开库 ID `1429631056` 均保持不变，可见性分别为 private / public。
+- GitHub API 回读确认：改名时私库 main 仍为 `734e9213e2e02bcead08d399839312d1d0bf086a`，公开 main 仍为 `98c4dcc622aee3cab8e605125d54ab31bb6eb762`；私密漏洞报告仍为 `enabled=true`，Apache-2.0 识别正常。改名没有交换、重建或改写两库历史。
+- 本机 origin 已更新为 TokenDaily-Private，public 及隔离发布仓库的 origin 已更新为 TokenDaily。README、SECURITY、交接文档、开源审查和双机工作流同步规范地址；下方原发布记录保留当时名称。
+- 检查：文档检查脚本核对 275 个文件、52 个本地 Markdown 链接，无断链或忽略规则异常；`git diff --check` 通过，LICENSE 校验和不变。GitHub 回验按固定仓库 ID 检查名称、可见性、主线 SHA 与漏洞报告设置；原始结果保存在本机忽略目录，未纳入源码。
+- Mac 旧私库工作目录尚未在本机操作：下一次 fetch/pull/push 前须将 origin 改为 `https://github.com/yangdonghan50/TokenDaily-Private.git`，步骤见 [DEVELOPMENT_WORKFLOW](DEVELOPMENT_WORKFLOW.md)。原 TokenDaily 地址现属于公开库，旧私有分支不能向该地址推送。
+- 此次仅修改仓库设置和六份文档；文档更新在私库任务分支保留，并沿原公开 main 追加独立文档提交。公开根仍为 `ca0a0a1d7b3e25b63346b3fd9357c31d4b44b44d`，不合入旧私有历史。源码逻辑与平台构建均未改动，不重复前端/Rust/安装态测试。
+
 ## 2026-10-22：创建公开仓库与普通来源标识
 
 - 用户明确批准：干净快照新建公开库，原私库保留；四个厂商 Logo 替换为普通标识，启用私密漏洞报告。名称检查后选用 `yangdonghan50/TokenDaily-Desktop`；原 `TokenDaily` 私库只读确认仍为 private。

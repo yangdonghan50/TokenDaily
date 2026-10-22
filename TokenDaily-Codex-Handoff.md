@@ -1,5 +1,7 @@
 # TokenDaily｜产品定位与 Codex 开发交接文档
 
+> 2026-10-22 仓库名称调整：用户要求公开仓库使用产品名，现公开共建仓库为 `yangdonghan50/TokenDaily`，原私库改名为 `yangdonghan50/TokenDaily-Private` 并保留私有可见性与旧历史。原公开名 `TokenDaily-Desktop` 是下方首次发布记录中的历史名称。两库 ID 与主线提交在改名时保持不变，私密漏洞报告仍启用。本机旧工作目录的 origin 已指向 TokenDaily-Private，public 指向 TokenDaily；Mac 旧私库克隆需先更新 origin，不能沿用已被公开库占用的旧地址。文档链接修正仅沿公开干净历史追加，迁移命令见 DEVELOPMENT_WORKFLOW。
+
 > 2026-10-22 用户批准执行公开：用不含旧历史的干净快照新建公开仓库，原私库保留；四个厂商 Logo 替换为普通标识，启用 GitHub 私密漏洞报告。公开项目为 `yangdonghan50/TokenDaily-Desktop`，许可仍为 Apache-2.0，桌面免费与网页情报订阅独立。此授权覆盖新库创建、干净快照首次推送与漏洞报告设置；不包含官网部署或新的二进制发布。后续开发从公开 main 建短期分支，旧私库历史不能合入公开分支，迁移规则见 DEVELOPMENT_WORKFLOW。
 
 > 2026-10-22 开源准备：用户确定桌面端采用 Apache-2.0，免费供开发者共建；网页端 AI 工具情报、优惠与更新提醒订阅独立运营，不纳入桌面源码许可。先补齐 LICENSE、NOTICE、贡献与安全说明，检查当前源码及全部可达 Git 历史；公开仓库须用户再次确认。旧私有历史含个人路径与真实账户观测，不直接公开，也不擅自改写或强推历史。审查范围、脱敏、候选快照与剩余公开条件见 `docs/OPEN_SOURCE_REVIEW.md`。本决定不授权发布安装包、部署官网或修改仓库可见性。
